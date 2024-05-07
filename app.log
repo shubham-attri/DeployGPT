@@ -10,3 +10,140 @@
 2024-05-07 09:39:58,441 INFO:  * Restarting with stat
 2024-05-07 09:39:58,582 WARNING:  * Debugger is active!
 2024-05-07 09:39:58,587 INFO:  * Debugger PIN: 569-720-432
+2024-05-07 09:41:32,904 INFO:  * Detected change in '/Users/attri/Desktop/Attri/Resume/gptdeploy/api/app.py', reloading
+2024-05-07 09:41:32,951 INFO:  * Restarting with stat
+2024-05-07 09:41:33,167 WARNING:  * Debugger is active!
+2024-05-07 09:41:33,175 INFO:  * Debugger PIN: 569-720-432
+2024-05-07 09:41:44,684 INFO:  * Detected change in '/Users/attri/Desktop/Attri/Resume/gptdeploy/api/app.py', reloading
+2024-05-07 09:41:44,723 INFO:  * Restarting with stat
+2024-05-07 09:41:45,026 WARNING:  * Debugger is active!
+2024-05-07 09:41:45,040 INFO:  * Debugger PIN: 569-720-432
+2024-05-07 09:41:51,279 INFO:  * Detected change in '/Users/attri/Desktop/Attri/Resume/gptdeploy/api/app.py', reloading
+2024-05-07 09:41:51,315 INFO:  * Restarting with stat
+2024-05-07 09:41:51,466 WARNING:  * Debugger is active!
+2024-05-07 09:41:51,472 INFO:  * Debugger PIN: 569-720-432
+2024-05-07 09:42:01,907 INFO:  * Detected change in '/Users/attri/Desktop/Attri/Resume/gptdeploy/api/app.py', reloading
+2024-05-07 09:42:01,929 INFO:  * Restarting with stat
+2024-05-07 09:42:02,078 WARNING:  * Debugger is active!
+2024-05-07 09:42:02,084 INFO:  * Debugger PIN: 569-720-432
+2024-05-07 09:42:07,294 INFO:  * Detected change in '/Users/attri/Desktop/Attri/Resume/gptdeploy/api/app.py', reloading
+2024-05-07 09:42:07,317 INFO:  * Restarting with stat
+2024-05-07 09:42:07,476 WARNING:  * Debugger is active!
+2024-05-07 09:42:07,486 INFO:  * Debugger PIN: 569-720-432
+2024-05-07 09:42:19,949 INFO:  * Detected change in '/Users/attri/Desktop/Attri/Resume/gptdeploy/api/app.py', reloading
+2024-05-07 09:42:19,972 INFO:  * Restarting with stat
+2024-05-07 09:42:20,132 WARNING:  * Debugger is active!
+2024-05-07 09:42:20,138 INFO:  * Debugger PIN: 569-720-432
+2024-05-07 09:42:22,290 INFO:  * Detected change in '/Users/attri/Desktop/Attri/Resume/gptdeploy/api/app.py', reloading
+2024-05-07 09:42:22,322 INFO:  * Restarting with stat
+2024-05-07 09:42:22,422 WARNING:  * Debugger is active!
+2024-05-07 09:42:22,426 INFO:  * Debugger PIN: 569-720-432
+2024-05-07 09:42:24,533 INFO:  * Detected change in '/Users/attri/Desktop/Attri/Resume/gptdeploy/api/app.py', reloading
+2024-05-07 09:42:24,552 INFO:  * Restarting with stat
+2024-05-07 09:42:24,649 WARNING:  * Debugger is active!
+2024-05-07 09:42:24,655 INFO:  * Debugger PIN: 569-720-432
+2024-05-07 09:42:27,807 INFO:  * Detected change in '/Users/attri/Desktop/Attri/Resume/gptdeploy/api/app.py', reloading
+2024-05-07 09:42:27,827 INFO:  * Restarting with stat
+2024-05-07 09:42:27,920 WARNING:  * Debugger is active!
+2024-05-07 09:42:27,924 INFO:  * Debugger PIN: 569-720-432
+2024-05-07 09:42:37,307 INFO:  * Detected change in '/Users/attri/Desktop/Attri/Resume/gptdeploy/api/app.py', reloading
+2024-05-07 09:42:37,337 INFO:  * Restarting with stat
+2024-05-07 09:42:37,486 WARNING:  * Debugger is active!
+2024-05-07 09:42:37,493 INFO:  * Debugger PIN: 569-720-432
+2024-05-07 09:42:48,934 INFO:  * Detected change in '/Users/attri/Desktop/Attri/Resume/gptdeploy/api/app.py', reloading
+2024-05-07 09:42:48,953 INFO:  * Restarting with stat
+2024-05-07 09:42:49,097 WARNING:  * Debugger is active!
+2024-05-07 09:42:49,102 INFO:  * Debugger PIN: 569-720-432
+2024-05-07 09:42:52,227 INFO:  * Detected change in '/Users/attri/Desktop/Attri/Resume/gptdeploy/api/app.py', reloading
+2024-05-07 09:42:52,253 INFO:  * Restarting with stat
+2024-05-07 09:42:52,363 WARNING:  * Debugger is active!
+2024-05-07 09:42:52,369 INFO:  * Debugger PIN: 569-720-432
+2024-05-07 09:43:32,050 INFO:  * Detected change in '/Users/attri/Desktop/Attri/Resume/gptdeploy/api/app.py', reloading
+2024-05-07 09:43:32,091 INFO:  * Restarting with stat
+2024-05-07 09:45:46,485 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.45.4:5001
+2024-05-07 09:45:46,486 INFO: [33mPress CTRL+C to quit[0m
+2024-05-07 09:45:46,486 INFO:  * Restarting with stat
+2024-05-07 09:45:46,568 WARNING:  * Debugger is active!
+2024-05-07 09:45:46,574 INFO:  * Debugger PIN: 569-720-432
+2024-05-07 09:46:02,073 INFO: 127.0.0.1 - - [07/May/2024 09:46:02] "GET / HTTP/1.1" 200 -
+2024-05-07 09:46:06,554 INFO: RAM usage for generate-text request: 24870912 bytes
+2024-05-07 09:46:06,560 INFO: 127.0.0.1 - - [07/May/2024 09:46:06] "[35m[1mPOST /generate-text HTTP/1.1[0m" 500 -
+2024-05-07 09:47:18,128 INFO:  * Detected change in '/Users/attri/Desktop/Attri/Resume/gptdeploy/api/app.py', reloading
+2024-05-07 09:47:18,170 INFO:  * Restarting with stat
+2024-05-07 09:47:33,873 WARNING:  * Debugger is active!
+2024-05-07 09:47:34,044 INFO:  * Debugger PIN: 569-720-432
+2024-05-07 09:47:46,405 INFO: 127.0.0.1 - - [07/May/2024 09:47:46] "GET / HTTP/1.1" 200 -
+2024-05-07 09:47:48,969 INFO: RAM usage for generate-text request: 69992448 bytes
+2024-05-07 09:47:54,193 INFO: 127.0.0.1 - - [07/May/2024 09:47:54] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 09:48:06,822 INFO: RAM usage for summarize-text request: 80347136 bytes
+2024-05-07 09:48:08,408 INFO: RAM usage for answer-question request: 425476096 bytes
+2024-05-07 09:48:08,728 INFO: 127.0.0.1 - - [07/May/2024 09:48:08] "POST /answer-question HTTP/1.1" 200 -
+2024-05-07 09:48:14,236 INFO: RAM usage for answer-question request: 551616512 bytes
+2024-05-07 09:48:14,421 INFO: 127.0.0.1 - - [07/May/2024 09:48:14] "POST /answer-question HTTP/1.1" 200 -
+2024-05-07 09:48:15,349 INFO: RAM usage for answer-question request: 368394240 bytes
+2024-05-07 09:48:15,532 INFO: 127.0.0.1 - - [07/May/2024 09:48:15] "POST /answer-question HTTP/1.1" 200 -
+2024-05-07 09:48:16,123 INFO: RAM usage for answer-question request: 1211006976 bytes
+2024-05-07 09:48:16,225 INFO: 127.0.0.1 - - [07/May/2024 09:48:16] "POST /answer-question HTTP/1.1" 200 -
+2024-05-07 09:48:18,639 INFO: RAM usage for generate-text request: 872988672 bytes
+2024-05-07 09:48:26,602 INFO: RAM usage for answer-question request: 1437958144 bytes
+2024-05-07 09:48:27,315 INFO: 127.0.0.1 - - [07/May/2024 09:48:27] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 09:48:27,413 INFO: 127.0.0.1 - - [07/May/2024 09:48:27] "POST /answer-question HTTP/1.1" 200 -
+2024-05-07 09:48:31,067 INFO: 127.0.0.1 - - [07/May/2024 09:48:31] "GET / HTTP/1.1" 200 -
+2024-05-07 09:48:31,719 INFO: 127.0.0.1 - - [07/May/2024 09:48:31] "GET / HTTP/1.1" 200 -
+2024-05-07 09:48:33,442 INFO: 127.0.0.1 - - [07/May/2024 09:48:33] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-07 09:49:10,983 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.45.4:5001
+2024-05-07 09:49:11,054 INFO: [33mPress CTRL+C to quit[0m
+2024-05-07 09:49:11,055 INFO:  * Restarting with stat
+2024-05-07 09:49:25,966 WARNING:  * Debugger is active!
+2024-05-07 09:49:26,175 INFO:  * Debugger PIN: 569-720-432
+2024-05-07 09:49:45,379 INFO: 127.0.0.1 - - [07/May/2024 09:49:45] "GET / HTTP/1.1" 200 -
+2024-05-07 09:50:09,699 INFO: RAM usage for generate-text request: 59179008 bytes
+2024-05-07 09:50:13,136 INFO: 127.0.0.1 - - [07/May/2024 09:50:13] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 09:50:34,842 INFO: RAM usage for summarize-text request: 34635776 bytes
+2024-05-07 09:50:56,195 INFO: 127.0.0.1 - - [07/May/2024 09:50:56] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-07 09:50:58,103 INFO: RAM usage for answer-question request: 853278720 bytes
+2024-05-07 09:50:59,626 INFO: 127.0.0.1 - - [07/May/2024 09:50:59] "POST /answer-question HTTP/1.1" 200 -
+2024-05-07 09:51:04,174 INFO: RAM usage for answer-question request: 77824000 bytes
+2024-05-07 09:51:04,337 INFO: 127.0.0.1 - - [07/May/2024 09:51:04] "POST /answer-question HTTP/1.1" 200 -
+2024-05-07 09:51:09,216 INFO: RAM usage for answer-question request: 77004800 bytes
+2024-05-07 09:51:09,381 INFO: 127.0.0.1 - - [07/May/2024 09:51:09] "POST /answer-question HTTP/1.1" 200 -
+2024-05-07 09:51:09,912 INFO: RAM usage for answer-question request: 460652544 bytes
+2024-05-07 09:51:09,974 INFO: 127.0.0.1 - - [07/May/2024 09:51:09] "POST /answer-question HTTP/1.1" 200 -
+2024-05-07 09:51:10,369 INFO: RAM usage for answer-question request: 459800576 bytes
+2024-05-07 09:51:10,433 INFO: 127.0.0.1 - - [07/May/2024 09:51:10] "POST /answer-question HTTP/1.1" 200 -
+2024-05-07 09:51:12,134 INFO: RAM usage for answer-question request: 468041728 bytes
+2024-05-07 09:51:12,187 INFO: 127.0.0.1 - - [07/May/2024 09:51:12] "POST /answer-question HTTP/1.1" 200 -
+2024-05-07 09:51:20,895 INFO: RAM usage for generate-text request: 77676544 bytes
+2024-05-07 09:51:25,909 INFO: 127.0.0.1 - - [07/May/2024 09:51:25] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 09:52:05,128 INFO:  * Detected change in '/Users/attri/Desktop/Attri/Resume/gptdeploy/api/app.py', reloading
+2024-05-07 09:52:06,299 INFO:  * Restarting with stat
+2024-05-07 09:52:21,119 WARNING:  * Debugger is active!
+2024-05-07 09:52:21,685 INFO:  * Debugger PIN: 569-720-432
+2024-05-07 09:52:22,235 INFO: RAM usage for generate-text request: 136666.53658536586 bytes
+2024-05-07 09:52:26,724 INFO: 127.0.0.1 - - [07/May/2024 09:52:26] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 09:52:55,215 INFO:  * Detected change in '/Users/attri/Desktop/Attri/Resume/gptdeploy/api/app.py', reloading
+2024-05-07 09:52:56,687 INFO:  * Restarting with stat
+2024-05-07 09:53:12,691 WARNING:  * Debugger is active!
+2024-05-07 09:53:13,019 INFO:  * Debugger PIN: 569-720-432
+2024-05-07 09:53:13,256 INFO: RAM usage for generate-text request: 291815424/ Mb
+2024-05-07 09:53:16,170 INFO: 127.0.0.1 - - [07/May/2024 09:53:16] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 09:53:50,367 INFO:  * Detected change in '/Users/attri/Desktop/Attri/Resume/gptdeploy/api/app.py', reloading
+2024-05-07 09:53:51,445 INFO:  * Restarting with stat
+2024-05-07 09:54:05,173 WARNING:  * Debugger is active!
+2024-05-07 09:54:05,293 INFO:  * Debugger PIN: 569-720-432
+2024-05-07 09:54:05,477 INFO: RAM usage for generate-text request: 240320512 Mb
+2024-05-07 09:54:05,478 INFO: RAM usage for summarize-text request: 240697344 bytes
+2024-05-07 09:54:05,478 INFO: RAM usage for answer-question request: 241614848 bytes
+2024-05-07 09:54:05,951 INFO: 127.0.0.1 - - [07/May/2024 09:54:05] "POST /answer-question HTTP/1.1" 200 -
+2024-05-07 09:54:09,387 INFO: 127.0.0.1 - - [07/May/2024 09:54:09] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 09:54:20,643 INFO: 127.0.0.1 - - [07/May/2024 09:54:20] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-07 12:16:30,568 INFO: RAM usage for summarize-text request: 63307776 bytes
+2024-05-07 12:16:51,874 INFO: 127.0.0.1 - - [07/May/2024 12:16:51] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-07 12:17:03,725 INFO: RAM usage for answer-question request: 71090176 bytes
+2024-05-07 12:17:05,216 INFO: 127.0.0.1 - - [07/May/2024 12:17:05] "POST /answer-question HTTP/1.1" 200 -
