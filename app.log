@@ -147,3 +147,943 @@
 2024-05-07 12:16:51,874 INFO: 127.0.0.1 - - [07/May/2024 12:16:51] "POST /summarize-text HTTP/1.1" 200 -
 2024-05-07 12:17:03,725 INFO: RAM usage for answer-question request: 71090176 bytes
 2024-05-07 12:17:05,216 INFO: 127.0.0.1 - - [07/May/2024 12:17:05] "POST /answer-question HTTP/1.1" 200 -
+2024-05-07 12:38:35,162 INFO: RAM usage for generate-text request: 62341120 Mb
+2024-05-07 12:38:35,164 INFO: RAM usage for generate-text request: 63029248 Mb
+2024-05-07 12:38:35,176 INFO: RAM usage for generate-text request: 65093632 Mb
+2024-05-07 12:38:35,177 INFO: RAM usage for generate-text request: 65355776 Mb
+2024-05-07 12:38:35,178 INFO: RAM usage for generate-text request: 65601536 Mb
+2024-05-07 12:38:35,179 INFO: RAM usage for generate-text request: 66125824 Mb
+2024-05-07 12:38:35,181 INFO: RAM usage for generate-text request: 66994176 Mb
+2024-05-07 12:38:35,181 INFO: RAM usage for generate-text request: 67108864 Mb
+2024-05-07 12:38:35,182 INFO: RAM usage for generate-text request: 67502080 Mb
+2024-05-07 12:38:35,182 INFO: RAM usage for generate-text request: 67616768 Mb
+2024-05-07 12:38:35,183 INFO: RAM usage for generate-text request: 67715072 Mb
+2024-05-07 12:38:35,187 INFO: RAM usage for generate-text request: 68861952 Mb
+2024-05-07 12:38:35,187 INFO: RAM usage for generate-text request: 68976640 Mb
+2024-05-07 12:38:35,187 INFO: RAM usage for generate-text request: 69009408 Mb
+2024-05-07 12:38:35,187 INFO: RAM usage for generate-text request: 69091328 Mb
+2024-05-07 12:38:35,188 INFO: RAM usage for generate-text request: 69238784 Mb
+2024-05-07 12:38:35,188 INFO: RAM usage for generate-text request: 69320704 Mb
+2024-05-07 12:38:35,188 INFO: RAM usage for generate-text request: 69484544 Mb
+2024-05-07 12:38:35,189 INFO: RAM usage for generate-text request: 69795840 Mb
+2024-05-07 12:38:35,189 INFO: RAM usage for generate-text request: 70303744 Mb
+2024-05-07 12:38:35,190 INFO: RAM usage for generate-text request: 70795264 Mb
+2024-05-07 12:38:35,224 INFO: RAM usage for generate-text request: 76513280 Mb
+2024-05-07 12:38:35,229 INFO: RAM usage for generate-text request: 77479936 Mb
+2024-05-07 12:38:35,231 INFO: RAM usage for generate-text request: 78069760 Mb
+2024-05-07 12:38:35,233 INFO: RAM usage for generate-text request: 78381056 Mb
+2024-05-07 12:38:35,233 INFO: RAM usage for generate-text request: 78446592 Mb
+2024-05-07 12:38:35,246 INFO: RAM usage for generate-text request: 80117760 Mb
+2024-05-07 12:38:35,247 INFO: RAM usage for generate-text request: 80216064 Mb
+2024-05-07 12:38:35,248 INFO: RAM usage for generate-text request: 80347136 Mb
+2024-05-07 12:38:35,249 INFO: RAM usage for generate-text request: 80412672 Mb
+2024-05-07 12:38:35,250 INFO: RAM usage for summarize-text request: 80510976 bytes
+2024-05-07 12:38:35,252 INFO: RAM usage for summarize-text request: 80936960 bytes
+2024-05-07 12:38:35,252 INFO: RAM usage for summarize-text request: 81166336 bytes
+2024-05-07 12:38:35,253 INFO: RAM usage for summarize-text request: 81428480 bytes
+2024-05-07 12:38:35,254 INFO: RAM usage for summarize-text request: 81903616 bytes
+2024-05-07 12:38:35,254 INFO: RAM usage for summarize-text request: 81969152 bytes
+2024-05-07 12:38:35,254 INFO: RAM usage for summarize-text request: 82296832 bytes
+2024-05-07 12:38:35,255 INFO: RAM usage for summarize-text request: 82624512 bytes
+2024-05-07 12:38:35,255 INFO: RAM usage for summarize-text request: 82821120 bytes
+2024-05-07 12:38:35,261 INFO: RAM usage for summarize-text request: 86507520 bytes
+2024-05-07 12:38:35,261 INFO: RAM usage for summarize-text request: 86589440 bytes
+2024-05-07 12:38:35,262 INFO: RAM usage for summarize-text request: 87064576 bytes
+2024-05-07 12:38:35,263 INFO: RAM usage for summarize-text request: 88342528 bytes
+2024-05-07 12:38:35,263 INFO: RAM usage for summarize-text request: 88440832 bytes
+2024-05-07 12:38:35,264 INFO: RAM usage for summarize-text request: 89440256 bytes
+2024-05-07 12:38:35,264 INFO: RAM usage for summarize-text request: 89669632 bytes
+2024-05-07 12:38:35,264 INFO: RAM usage for summarize-text request: 90030080 bytes
+2024-05-07 12:38:35,264 INFO: RAM usage for summarize-text request: 90619904 bytes
+2024-05-07 12:38:35,265 INFO: RAM usage for summarize-text request: 91832320 bytes
+2024-05-07 12:38:35,266 INFO: RAM usage for summarize-text request: 92487680 bytes
+2024-05-07 12:38:35,267 INFO: RAM usage for generate-text request: 92848128 Mb
+2024-05-07 12:38:35,267 INFO: RAM usage for generate-text request: 93028352 Mb
+2024-05-07 12:38:35,267 INFO: RAM usage for generate-text request: 93224960 Mb
+2024-05-07 12:38:35,269 INFO: RAM usage for generate-text request: 93437952 Mb
+2024-05-07 12:38:35,270 INFO: RAM usage for generate-text request: 93503488 Mb
+2024-05-07 12:38:35,270 INFO: RAM usage for generate-text request: 93618176 Mb
+2024-05-07 12:38:35,271 INFO: RAM usage for generate-text request: 93683712 Mb
+2024-05-07 12:38:35,271 INFO: RAM usage for generate-text request: 93765632 Mb
+2024-05-07 12:38:35,271 INFO: RAM usage for generate-text request: 93814784 Mb
+2024-05-07 12:38:35,272 INFO: RAM usage for generate-text request: 93863936 Mb
+2024-05-07 12:38:35,272 INFO: RAM usage for generate-text request: 93896704 Mb
+2024-05-07 12:38:35,272 INFO: RAM usage for generate-text request: 93978624 Mb
+2024-05-07 12:38:35,272 INFO: RAM usage for generate-text request: 94011392 Mb
+2024-05-07 12:38:35,272 INFO: RAM usage for generate-text request: 94093312 Mb
+2024-05-07 12:38:35,273 INFO: RAM usage for generate-text request: 94339072 Mb
+2024-05-07 12:38:35,341 INFO: RAM usage for generate-text request: 141410304 Mb
+2024-05-07 12:38:35,353 INFO: RAM usage for generate-text request: 156729344 Mb
+2024-05-07 12:38:35,385 INFO: RAM usage for generate-text request: 167034880 Mb
+2024-05-07 12:38:35,389 INFO: RAM usage for generate-text request: 173539328 Mb
+2024-05-07 12:38:35,391 INFO: RAM usage for generate-text request: 178405376 Mb
+2024-05-07 12:38:35,392 INFO: RAM usage for generate-text request: 178880512 Mb
+2024-05-07 12:38:35,393 INFO: RAM usage for generate-text request: 180731904 Mb
+2024-05-07 12:38:35,394 INFO: RAM usage for generate-text request: 182616064 Mb
+2024-05-07 12:38:35,394 INFO: RAM usage for generate-text request: 183238656 Mb
+2024-05-07 12:38:35,395 INFO: RAM usage for generate-text request: 183959552 Mb
+2024-05-07 12:38:35,396 INFO: RAM usage for generate-text request: 185794560 Mb
+2024-05-07 12:38:35,397 INFO: RAM usage for generate-text request: 187695104 Mb
+2024-05-07 12:38:35,397 INFO: RAM usage for generate-text request: 188203008 Mb
+2024-05-07 12:38:35,399 INFO: RAM usage for generate-text request: 188694528 Mb
+2024-05-07 12:38:35,399 INFO: RAM usage for generate-text request: 189349888 Mb
+2024-05-07 12:38:35,400 INFO: RAM usage for summarize-text request: 189792256 bytes
+2024-05-07 12:38:35,401 INFO: RAM usage for summarize-text request: 192610304 bytes
+2024-05-07 12:38:35,402 INFO: RAM usage for summarize-text request: 194232320 bytes
+2024-05-07 12:38:35,404 INFO: RAM usage for summarize-text request: 195559424 bytes
+2024-05-07 12:38:35,404 INFO: RAM usage for summarize-text request: 196067328 bytes
+2024-05-07 12:38:35,936 INFO: RAM usage for summarize-text request: 302678016 bytes
+2024-05-07 12:38:35,955 INFO: RAM usage for summarize-text request: 335282176 bytes
+2024-05-07 12:38:35,959 INFO: RAM usage for summarize-text request: 336642048 bytes
+2024-05-07 12:38:35,967 INFO: RAM usage for summarize-text request: 339181568 bytes
+2024-05-07 12:38:35,976 INFO: RAM usage for summarize-text request: 344276992 bytes
+2024-05-07 12:38:35,978 INFO: RAM usage for summarize-text request: 345817088 bytes
+2024-05-07 12:38:35,982 INFO: RAM usage for summarize-text request: 347439104 bytes
+2024-05-07 12:38:35,989 INFO: RAM usage for summarize-text request: 352534528 bytes
+2024-05-07 12:38:35,990 INFO: RAM usage for summarize-text request: 352878592 bytes
+2024-05-07 12:38:35,993 INFO: RAM usage for summarize-text request: 354123776 bytes
+2024-05-07 12:38:35,997 INFO: RAM usage for summarize-text request: 355139584 bytes
+2024-05-07 12:38:36,000 INFO: RAM usage for summarize-text request: 356253696 bytes
+2024-05-07 12:38:36,001 INFO: RAM usage for summarize-text request: 357023744 bytes
+2024-05-07 12:38:36,005 INFO: RAM usage for summarize-text request: 358727680 bytes
+2024-05-07 12:38:36,006 INFO: RAM usage for summarize-text request: 358973440 bytes
+2024-05-07 12:39:29,786 INFO: 127.0.0.1 - - [07/May/2024 12:39:29] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 12:39:29,894 INFO: RAM usage for summarize-text request: 752566272 bytes
+2024-05-07 12:39:41,029 INFO: 127.0.0.1 - - [07/May/2024 12:39:41] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 12:39:41,039 INFO: RAM usage for summarize-text request: 863797248 bytes
+2024-05-07 12:41:13,571 INFO: 127.0.0.1 - - [07/May/2024 12:41:13] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 12:41:14,056 INFO: RAM usage for summarize-text request: 751304704 bytes
+2024-05-07 12:42:20,581 INFO: 127.0.0.1 - - [07/May/2024 12:42:20] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 12:42:21,797 INFO: RAM usage for summarize-text request: 384745472 bytes
+2024-05-07 12:52:27,564 INFO: 127.0.0.1 - - [07/May/2024 12:52:27] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 12:57:05,641 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.45.4:5001
+2024-05-07 12:57:05,643 INFO: [33mPress CTRL+C to quit[0m
+2024-05-07 12:57:05,644 INFO:  * Restarting with stat
+2024-05-07 12:57:24,130 WARNING:  * Debugger is active!
+2024-05-07 12:57:24,323 INFO:  * Debugger PIN: 569-720-432
+2024-05-07 12:57:26,670 INFO: RAM usage for generate-text request: 169426944 Mb
+2024-05-07 12:57:26,670 INFO: RAM usage for answer-question request: 169443328 bytes
+2024-05-07 12:57:26,670 INFO: RAM usage for generate-text request: 169476096 Mb
+2024-05-07 12:57:26,671 INFO: RAM usage for generate-text request: 169476096 Mb
+2024-05-07 12:57:26,671 INFO: RAM usage for answer-question request: 169541632 bytes
+2024-05-07 12:57:26,671 INFO: RAM usage for summarize-text request: 169541632 bytes
+2024-05-07 12:57:26,671 INFO: RAM usage for summarize-text request: 169721856 bytes
+2024-05-07 12:57:26,671 INFO: RAM usage for answer-question request: 169721856 bytes
+2024-05-07 12:57:26,671 INFO: RAM usage for answer-question request: 169721856 bytes
+2024-05-07 12:57:26,671 INFO: RAM usage for generate-text request: 169721856 Mb
+2024-05-07 12:57:26,671 INFO: RAM usage for answer-question request: 169721856 bytes
+2024-05-07 12:57:26,672 INFO: RAM usage for summarize-text request: 169721856 bytes
+2024-05-07 12:57:26,672 INFO: RAM usage for generate-text request: 169738240 Mb
+2024-05-07 12:57:26,672 INFO: RAM usage for summarize-text request: 169836544 bytes
+2024-05-07 12:57:26,672 INFO: RAM usage for summarize-text request: 169836544 bytes
+2024-05-07 12:57:26,672 INFO: RAM usage for generate-text request: 169836544 Mb
+2024-05-07 12:57:27,704 INFO: 127.0.0.1 - - [07/May/2024 12:57:27] "POST /answer-question HTTP/1.1" 200 -
+2024-05-07 12:57:27,738 INFO: 127.0.0.1 - - [07/May/2024 12:57:27] "POST /answer-question HTTP/1.1" 200 -
+2024-05-07 12:57:27,750 INFO: 127.0.0.1 - - [07/May/2024 12:57:27] "POST /answer-question HTTP/1.1" 200 -
+2024-05-07 12:57:27,894 INFO: 127.0.0.1 - - [07/May/2024 12:57:27] "POST /answer-question HTTP/1.1" 200 -
+2024-05-07 12:57:27,938 INFO: 127.0.0.1 - - [07/May/2024 12:57:27] "POST /answer-question HTTP/1.1" 200 -
+2024-05-07 12:57:58,437 INFO: 127.0.0.1 - - [07/May/2024 12:57:58] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 12:57:58,793 INFO: 127.0.0.1 - - [07/May/2024 12:57:58] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 12:57:59,859 INFO: 127.0.0.1 - - [07/May/2024 12:57:59] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 12:58:00,291 INFO: 127.0.0.1 - - [07/May/2024 12:58:00] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 12:58:00,419 INFO: 127.0.0.1 - - [07/May/2024 12:58:00] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 12:58:01,303 INFO: 127.0.0.1 - - [07/May/2024 12:58:01] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 12:58:15,342 INFO: 127.0.0.1 - - [07/May/2024 12:58:15] "GET / HTTP/1.1" 200 -
+2024-05-07 12:58:20,840 INFO: RAM usage for generate-text request: 1159708672 Mb
+2024-05-07 12:58:23,647 INFO: 127.0.0.1 - - [07/May/2024 12:58:23] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-07 12:58:25,631 INFO: 127.0.0.1 - - [07/May/2024 12:58:25] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-07 12:58:25,897 INFO: 127.0.0.1 - - [07/May/2024 12:58:25] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-07 12:58:27,455 INFO: 127.0.0.1 - - [07/May/2024 12:58:27] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-07 12:58:28,041 INFO: 127.0.0.1 - - [07/May/2024 12:58:28] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 12:58:28,834 INFO: 127.0.0.1 - - [07/May/2024 12:58:28] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-07 12:59:56,502 INFO:  * Detected change in '/Users/attri/Desktop/Attri/Resume/gptdeploy/api/app.py', reloading
+2024-05-07 12:59:57,479 INFO:  * Restarting with stat
+2024-05-07 13:00:10,310 WARNING:  * Debugger is active!
+2024-05-07 13:00:10,358 INFO:  * Debugger PIN: 569-720-432
+2024-05-07 13:00:18,049 INFO: RAM usage for generate-text request: 104873984 
+2024-05-07 13:00:18,050 INFO: RAM usage for generate-text request: 104939520 
+2024-05-07 13:00:18,050 INFO: RAM usage for summarize-text request: 104955904 bytes
+2024-05-07 13:00:18,050 INFO: RAM usage for answer-question request: 104955904 bytes
+2024-05-07 13:00:18,050 INFO: RAM usage for answer-question request: 104955904 bytes
+2024-05-07 13:00:18,050 INFO: RAM usage for generate-text request: 104955904 
+2024-05-07 13:00:18,050 INFO: RAM usage for summarize-text request: 104972288 bytes
+2024-05-07 13:00:18,050 INFO: RAM usage for summarize-text request: 104972288 bytes
+2024-05-07 13:00:18,051 INFO: RAM usage for answer-question request: 104972288 bytes
+2024-05-07 13:00:18,052 INFO: RAM usage for generate-text request: 105283584 
+2024-05-07 13:00:18,052 INFO: RAM usage for generate-text request: 105299968 
+2024-05-07 13:00:18,052 INFO: RAM usage for summarize-text request: 105545728 bytes
+2024-05-07 13:00:18,052 INFO: RAM usage for generate-text request: 105857024 
+2024-05-07 13:00:18,052 INFO: RAM usage for answer-question request: 105889792 bytes
+2024-05-07 13:00:18,052 INFO: RAM usage for answer-question request: 105955328 bytes
+2024-05-07 13:00:18,052 INFO: RAM usage for summarize-text request: 105955328 bytes
+2024-05-07 13:00:19,002 INFO: 127.0.0.1 - - [07/May/2024 13:00:19] "POST /answer-question HTTP/1.1" 200 -
+2024-05-07 13:00:19,004 INFO: 127.0.0.1 - - [07/May/2024 13:00:19] "POST /answer-question HTTP/1.1" 200 -
+2024-05-07 13:00:19,004 INFO: 127.0.0.1 - - [07/May/2024 13:00:19] "POST /answer-question HTTP/1.1" 200 -
+2024-05-07 13:00:19,005 INFO: 127.0.0.1 - - [07/May/2024 13:00:19] "POST /answer-question HTTP/1.1" 200 -
+2024-05-07 13:00:19,133 INFO: 127.0.0.1 - - [07/May/2024 13:00:19] "POST /answer-question HTTP/1.1" 200 -
+2024-05-07 13:00:23,223 INFO: 127.0.0.1 - - [07/May/2024 13:00:23] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 13:00:27,352 INFO: 127.0.0.1 - - [07/May/2024 13:00:27] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 13:00:32,721 INFO: 127.0.0.1 - - [07/May/2024 13:00:32] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 13:00:33,234 INFO: 127.0.0.1 - - [07/May/2024 13:00:33] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 13:00:33,840 INFO: 127.0.0.1 - - [07/May/2024 13:00:33] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 13:00:33,846 INFO: 127.0.0.1 - - [07/May/2024 13:00:33] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 13:00:42,630 INFO: 127.0.0.1 - - [07/May/2024 13:00:42] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-07 13:00:43,777 INFO: 127.0.0.1 - - [07/May/2024 13:00:43] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-07 13:00:44,878 INFO: 127.0.0.1 - - [07/May/2024 13:00:44] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-07 13:00:45,627 INFO: 127.0.0.1 - - [07/May/2024 13:00:45] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-07 13:00:45,667 INFO: 127.0.0.1 - - [07/May/2024 13:00:45] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-07 13:09:05,581 INFO: 127.0.0.1 - - [07/May/2024 13:09:05] "GET / HTTP/1.1" 200 -
+2024-05-07 13:09:05,581 INFO: 127.0.0.1 - - [07/May/2024 13:09:05] "GET / HTTP/1.1" 200 -
+2024-05-07 13:09:05,584 INFO: 127.0.0.1 - - [07/May/2024 13:09:05] "GET / HTTP/1.1" 200 -
+2024-05-07 13:09:05,584 INFO: 127.0.0.1 - - [07/May/2024 13:09:05] "GET / HTTP/1.1" 200 -
+2024-05-07 13:09:05,586 INFO: 127.0.0.1 - - [07/May/2024 13:09:05] "GET / HTTP/1.1" 200 -
+2024-05-07 13:09:05,587 INFO: 127.0.0.1 - - [07/May/2024 13:09:05] "GET / HTTP/1.1" 200 -
+2024-05-07 13:09:05,588 INFO: 127.0.0.1 - - [07/May/2024 13:09:05] "GET / HTTP/1.1" 200 -
+2024-05-07 13:09:05,589 INFO: 127.0.0.1 - - [07/May/2024 13:09:05] "GET / HTTP/1.1" 200 -
+2024-05-07 13:09:05,615 INFO: RAM usage for generate-text request: 68550656 
+2024-05-07 13:09:05,634 INFO: 127.0.0.1 - - [07/May/2024 13:09:05] "GET / HTTP/1.1" 200 -
+2024-05-07 13:09:05,634 INFO: RAM usage for generate-text request: 70582272 
+2024-05-07 13:09:05,635 INFO: RAM usage for generate-text request: 70778880 
+2024-05-07 13:09:05,636 INFO: RAM usage for generate-text request: 71335936 
+2024-05-07 13:09:05,637 INFO: 127.0.0.1 - - [07/May/2024 13:09:05] "GET / HTTP/1.1" 200 -
+2024-05-07 13:09:05,637 INFO: RAM usage for generate-text request: 71843840 
+2024-05-07 13:09:05,638 INFO: 127.0.0.1 - - [07/May/2024 13:09:05] "GET / HTTP/1.1" 200 -
+2024-05-07 13:09:05,644 INFO: RAM usage for generate-text request: 73875456 
+2024-05-07 13:09:05,644 INFO: RAM usage for generate-text request: 74088448 
+2024-05-07 13:09:05,645 INFO: RAM usage for generate-text request: 74268672 
+2024-05-07 13:09:05,666 INFO: RAM usage for generate-text request: 76480512 
+2024-05-07 13:09:05,686 INFO: RAM usage for generate-text request: 79233024 
+2024-05-07 13:09:05,688 INFO: RAM usage for generate-text request: 79298560 
+2024-05-07 13:09:05,725 INFO: 127.0.0.1 - - [07/May/2024 13:09:05] "GET / HTTP/1.1" 200 -
+2024-05-07 13:09:05,725 INFO: 127.0.0.1 - - [07/May/2024 13:09:05] "GET / HTTP/1.1" 200 -
+2024-05-07 13:09:05,726 INFO: 127.0.0.1 - - [07/May/2024 13:09:05] "GET / HTTP/1.1" 200 -
+2024-05-07 13:09:05,740 INFO: 127.0.0.1 - - [07/May/2024 13:09:05] "GET / HTTP/1.1" 200 -
+2024-05-07 13:09:05,742 INFO: 127.0.0.1 - - [07/May/2024 13:09:05] "GET / HTTP/1.1" 200 -
+2024-05-07 13:09:05,752 INFO: 127.0.0.1 - - [07/May/2024 13:09:05] "GET / HTTP/1.1" 200 -
+2024-05-07 13:09:05,753 INFO: RAM usage for generate-text request: 89653248 
+2024-05-07 13:09:05,754 INFO: RAM usage for generate-text request: 89751552 
+2024-05-07 13:09:05,756 INFO: RAM usage for generate-text request: 90619904 
+2024-05-07 13:09:05,766 INFO: RAM usage for generate-text request: 94748672 
+2024-05-07 13:09:05,768 INFO: RAM usage for generate-text request: 96174080 
+2024-05-07 13:09:05,769 INFO: RAM usage for generate-text request: 96550912 
+2024-05-07 13:09:05,795 INFO: 127.0.0.1 - - [07/May/2024 13:09:05] "GET / HTTP/1.1" 200 -
+2024-05-07 13:09:05,795 INFO: 127.0.0.1 - - [07/May/2024 13:09:05] "GET / HTTP/1.1" 200 -
+2024-05-07 13:09:05,796 INFO: 127.0.0.1 - - [07/May/2024 13:09:05] "GET / HTTP/1.1" 200 -
+2024-05-07 13:09:05,822 INFO: RAM usage for generate-text request: 117538816 
+2024-05-07 13:09:05,825 INFO: RAM usage for generate-text request: 118325248 
+2024-05-07 13:09:05,826 INFO: RAM usage for generate-text request: 118571008 
+2024-05-07 13:09:15,601 INFO: 127.0.0.1 - - [07/May/2024 13:09:15] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 13:09:15,627 INFO: RAM usage for generate-text request: 684195840 
+2024-05-07 13:09:31,357 INFO: 127.0.0.1 - - [07/May/2024 13:09:31] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 13:09:31,406 INFO: RAM usage for generate-text request: 748683264 
+2024-05-07 13:09:37,211 INFO: 127.0.0.1 - - [07/May/2024 13:09:37] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 13:09:37,243 INFO: RAM usage for generate-text request: 801275904 
+2024-05-07 13:09:43,853 INFO: 127.0.0.1 - - [07/May/2024 13:09:43] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 13:09:43,879 INFO: RAM usage for generate-text request: 769687552 
+2024-05-07 13:09:45,669 INFO: 127.0.0.1 - - [07/May/2024 13:09:45] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 13:09:45,692 INFO: RAM usage for generate-text request: 794050560 
+2024-05-07 13:09:45,799 INFO: 127.0.0.1 - - [07/May/2024 13:09:45] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 13:09:45,825 INFO: RAM usage for generate-text request: 803094528 
+2024-05-07 13:09:47,450 INFO: 127.0.0.1 - - [07/May/2024 13:09:47] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 13:09:47,487 INFO: RAM usage for generate-text request: 748519424 
+2024-05-07 13:09:49,459 INFO: 127.0.0.1 - - [07/May/2024 13:09:49] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 13:09:49,496 INFO: RAM usage for generate-text request: 777469952 
+2024-05-07 13:09:50,468 INFO: 127.0.0.1 - - [07/May/2024 13:09:50] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 13:09:50,510 INFO: RAM usage for generate-text request: 767131648 
+2024-05-07 13:09:50,523 INFO: 127.0.0.1 - - [07/May/2024 13:09:50] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 13:09:50,548 INFO: RAM usage for generate-text request: 774750208 
+2024-05-07 13:09:50,856 INFO: 127.0.0.1 - - [07/May/2024 13:09:50] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 13:09:50,876 INFO: RAM usage for generate-text request: 768589824 
+2024-05-07 13:09:51,398 INFO: 127.0.0.1 - - [07/May/2024 13:09:51] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 13:09:51,431 INFO: RAM usage for generate-text request: 737984512 
+2024-05-07 13:09:53,018 INFO: 127.0.0.1 - - [07/May/2024 13:09:53] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 13:09:53,047 INFO: RAM usage for generate-text request: 758169600 
+2024-05-07 13:09:53,426 INFO: 127.0.0.1 - - [07/May/2024 13:09:53] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 13:09:53,449 INFO: RAM usage for generate-text request: 779632640 
+2024-05-07 13:09:53,558 INFO: 127.0.0.1 - - [07/May/2024 13:09:53] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 13:09:53,587 INFO: RAM usage for generate-text request: 758153216 
+2024-05-07 13:09:53,605 INFO: 127.0.0.1 - - [07/May/2024 13:09:53] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 13:09:53,628 INFO: RAM usage for generate-text request: 716488704 
+2024-05-07 13:09:55,427 INFO: 127.0.0.1 - - [07/May/2024 13:09:55] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 13:09:55,469 INFO: RAM usage for generate-text request: 706904064 
+2024-05-07 13:09:56,506 INFO: 127.0.0.1 - - [07/May/2024 13:09:56] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 13:09:56,535 INFO: RAM usage for generate-text request: 747700224 
+2024-05-07 13:09:56,625 INFO: 127.0.0.1 - - [07/May/2024 13:09:56] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 13:09:56,653 INFO: RAM usage for generate-text request: 750419968 
+2024-05-07 13:09:58,635 INFO: 127.0.0.1 - - [07/May/2024 13:09:58] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 13:09:58,681 INFO: RAM usage for summarize-text request: 705134592 bytes
+2024-05-07 13:09:59,922 INFO: 127.0.0.1 - - [07/May/2024 13:09:59] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 13:09:59,975 INFO: RAM usage for summarize-text request: 806862848 bytes
+2024-05-07 13:10:00,646 INFO: RAM usage for generate-text request: 950337536 
+2024-05-07 13:10:01,948 INFO: 127.0.0.1 - - [07/May/2024 13:10:01] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 13:10:11,645 INFO: 127.0.0.1 - - [07/May/2024 13:10:11] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 13:10:11,756 INFO: RAM usage for summarize-text request: 873578496 bytes
+2024-05-07 13:10:20,200 INFO: 127.0.0.1 - - [07/May/2024 13:10:20] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 13:10:20,328 INFO: RAM usage for summarize-text request: 844988416 bytes
+2024-05-07 13:10:30,823 INFO: 127.0.0.1 - - [07/May/2024 13:10:30] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 13:10:31,289 INFO: RAM usage for summarize-text request: 887947264 bytes
+2024-05-07 13:10:41,022 INFO: RAM usage for summarize-text request: 556269568 bytes
+2024-05-07 13:10:41,137 INFO: RAM usage for summarize-text request: 556580864 bytes
+2024-05-07 13:10:42,996 INFO: RAM usage for summarize-text request: 638861312 bytes
+2024-05-07 13:10:44,557 INFO: RAM usage for summarize-text request: 671596544 bytes
+2024-05-07 13:10:45,580 INFO: RAM usage for summarize-text request: 736624640 bytes
+2024-05-07 13:10:45,929 INFO: RAM usage for summarize-text request: 567115776 bytes
+2024-05-07 13:10:45,960 INFO: RAM usage for summarize-text request: 555679744 bytes
+2024-05-07 13:10:46,819 INFO: RAM usage for summarize-text request: 826703872 bytes
+2024-05-07 13:10:48,197 INFO: RAM usage for summarize-text request: 834093056 bytes
+2024-05-07 13:10:48,492 INFO: RAM usage for summarize-text request: 869629952 bytes
+2024-05-07 13:10:48,656 INFO: RAM usage for summarize-text request: 962330624 bytes
+2024-05-07 13:10:48,837 INFO: RAM usage for summarize-text request: 931708928 bytes
+2024-05-07 13:10:51,213 INFO: RAM usage for summarize-text request: 719192064 bytes
+2024-05-07 13:10:52,998 INFO: RAM usage for summarize-text request: 695877632 bytes
+2024-05-07 13:10:54,028 INFO: RAM usage for summarize-text request: 651591680 bytes
+2024-05-07 13:10:55,076 INFO: RAM usage for summarize-text request: 780550144 bytes
+2024-05-07 13:10:55,880 INFO: RAM usage for summarize-text request: 752205824 bytes
+2024-05-07 13:11:09,988 INFO: RAM usage for summarize-text request: 430391296 bytes
+2024-05-07 13:11:15,967 INFO: RAM usage for summarize-text request: 957300736 bytes
+2024-05-07 13:11:27,452 INFO: RAM usage for summarize-text request: 778600448 bytes
+2024-05-07 13:11:37,295 INFO: RAM usage for summarize-text request: 83197952 bytes
+2024-05-07 13:11:37,301 INFO: RAM usage for summarize-text request: 85049344 bytes
+2024-05-07 13:11:40,157 INFO: RAM usage for summarize-text request: 459358208 bytes
+2024-05-07 13:11:40,151 INFO: RAM usage for summarize-text request: 514129920 bytes
+2024-05-07 13:11:41,588 INFO: RAM usage for summarize-text request: 87048192 bytes
+2024-05-07 13:11:41,615 INFO: RAM usage for summarize-text request: 110493696 bytes
+2024-05-07 13:11:41,620 INFO: RAM usage for summarize-text request: 114933760 bytes
+2024-05-07 13:11:42,849 INFO: RAM usage for summarize-text request: 102236160 bytes
+2024-05-07 13:11:43,428 INFO: RAM usage for summarize-text request: 217743360 bytes
+2024-05-07 13:11:43,675 INFO: RAM usage for summarize-text request: 353206272 bytes
+2024-05-07 13:11:44,301 INFO: RAM usage for summarize-text request: 121831424 bytes
+2024-05-07 13:11:47,125 INFO: RAM usage for summarize-text request: 238043136 bytes
+2024-05-07 13:11:49,358 INFO: RAM usage for summarize-text request: 645005312 bytes
+2024-05-07 13:11:49,371 INFO: RAM usage for summarize-text request: 661028864 bytes
+2024-05-07 13:12:26,093 INFO: 127.0.0.1 - - [07/May/2024 13:12:26] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 14:39:41,554 INFO: 127.0.0.1 - - [07/May/2024 14:39:41] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 14:39:41,550 INFO: 127.0.0.1 - - [07/May/2024 14:39:41] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 18:36:52,806 INFO: 127.0.0.1 - - [07/May/2024 18:36:52] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 21:09:11,593 INFO: 127.0.0.1 - - [07/May/2024 21:09:11] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 23:16:37,630 INFO: 127.0.0.1 - - [07/May/2024 23:16:37] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 23:18:05,177 INFO: 127.0.0.1 - - [07/May/2024 23:18:05] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 23:39:26,319 INFO: 127.0.0.1 - - [07/May/2024 23:39:26] "POST /generate-text HTTP/1.1" 200 -
+2024-05-07 23:39:26,345 INFO: 127.0.0.1 - - [07/May/2024 23:39:26] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 00:14:35,083 INFO: 127.0.0.1 - - [08/May/2024 00:14:35] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:24:54,814 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.45.4:5001
+2024-05-08 03:24:54,814 INFO: [33mPress CTRL+C to quit[0m
+2024-05-08 03:24:54,815 INFO:  * Restarting with stat
+2024-05-08 03:25:10,048 WARNING:  * Debugger is active!
+2024-05-08 03:25:10,141 INFO:  * Debugger PIN: 569-720-432
+2024-05-08 03:25:10,222 INFO: RAM usage for generate-text request: 311984128 bytes
+2024-05-08 03:25:10,222 INFO: RAM usage for generate-text request: 312180736 bytes
+2024-05-08 03:25:10,223 INFO: RAM usage for generate-text request: 312442880 bytes
+2024-05-08 03:25:10,224 INFO: RAM usage for summarize-text request: 312885248 bytes
+2024-05-08 03:25:10,224 INFO: RAM usage for summarize-text request: 313278464 bytes
+2024-05-08 03:25:10,224 INFO: RAM usage for answer-question request: 313475072 bytes
+2024-05-08 03:25:10,226 INFO: RAM usage for answer-question request: 314851328 bytes
+2024-05-08 03:25:10,227 INFO: RAM usage for answer-question request: 318291968 bytes
+2024-05-08 03:25:10,231 INFO: RAM usage for generate-text request: 322174976 bytes
+2024-05-08 03:25:10,231 INFO: RAM usage for generate-text request: 322437120 bytes
+2024-05-08 03:25:10,232 INFO: RAM usage for generate-text request: 322633728 bytes
+2024-05-08 03:25:10,237 INFO: RAM usage for summarize-text request: 324632576 bytes
+2024-05-08 03:25:10,238 INFO: RAM usage for summarize-text request: 325074944 bytes
+2024-05-08 03:25:10,240 INFO: RAM usage for summarize-text request: 326582272 bytes
+2024-05-08 03:25:10,240 INFO: RAM usage for answer-question request: 326664192 bytes
+2024-05-08 03:25:10,241 INFO: RAM usage for answer-question request: 326828032 bytes
+2024-05-08 03:25:11,415 INFO: 127.0.0.1 - - [08/May/2024 03:25:11] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:25:11,417 INFO: 127.0.0.1 - - [08/May/2024 03:25:11] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:25:11,417 INFO: 127.0.0.1 - - [08/May/2024 03:25:11] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:25:11,418 INFO: 127.0.0.1 - - [08/May/2024 03:25:11] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:25:11,427 INFO: 127.0.0.1 - - [08/May/2024 03:25:11] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:25:30,732 INFO: 127.0.0.1 - - [08/May/2024 03:25:30] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:25:31,848 INFO: 127.0.0.1 - - [08/May/2024 03:25:31] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:25:33,389 INFO: 127.0.0.1 - - [08/May/2024 03:25:33] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:25:33,615 INFO: 127.0.0.1 - - [08/May/2024 03:25:33] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:25:33,847 INFO: 127.0.0.1 - - [08/May/2024 03:25:33] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:25:36,655 INFO: 127.0.0.1 - - [08/May/2024 03:25:36] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:25:37,794 INFO: 127.0.0.1 - - [08/May/2024 03:25:37] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:25:38,474 INFO: 127.0.0.1 - - [08/May/2024 03:25:38] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:25:39,001 INFO: 127.0.0.1 - - [08/May/2024 03:25:39] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:25:41,580 INFO: 127.0.0.1 - - [08/May/2024 03:25:41] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:25:42,295 INFO: 127.0.0.1 - - [08/May/2024 03:25:42] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:26:47,340 INFO: 127.0.0.1 - - [08/May/2024 03:26:47] "GET / HTTP/1.1" 200 -
+2024-05-08 03:26:52,518 INFO: RAM usage for generate-text request: 77201408 bytes
+2024-05-08 03:26:55,079 INFO: 127.0.0.1 - - [08/May/2024 03:26:55] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:27:03,815 INFO: 127.0.0.1 - - [08/May/2024 03:27:03] "GET / HTTP/1.1" 200 -
+2024-05-08 03:27:03,826 INFO: RAM usage for generate-text request: 79036416 bytes
+2024-05-08 03:27:05,949 INFO: 127.0.0.1 - - [08/May/2024 03:27:05] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:27:05,962 INFO: RAM usage for generate-text request: 642072576 bytes
+2024-05-08 03:27:06,302 INFO: 127.0.0.1 - - [08/May/2024 03:27:06] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:27:06,314 INFO: RAM usage for summarize-text request: 642760704 bytes
+2024-05-08 03:27:20,671 INFO: 127.0.0.1 - - [08/May/2024 03:27:20] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:27:20,687 INFO: RAM usage for summarize-text request: 1335934976 bytes
+2024-05-08 03:27:26,669 INFO: 127.0.0.1 - - [08/May/2024 03:27:26] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:27:26,689 INFO: RAM usage for answer-question request: 1238368256 bytes
+2024-05-08 03:27:28,110 INFO: 127.0.0.1 - - [08/May/2024 03:27:28] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:27:28,127 INFO: RAM usage for answer-question request: 648871936 bytes
+2024-05-08 03:27:28,219 INFO: 127.0.0.1 - - [08/May/2024 03:27:28] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:31:53,087 INFO: 127.0.0.1 - - [08/May/2024 03:31:53] "GET / HTTP/1.1" 200 -
+2024-05-08 03:31:53,092 INFO: 127.0.0.1 - - [08/May/2024 03:31:53] "GET / HTTP/1.1" 200 -
+2024-05-08 03:31:53,119 INFO: RAM usage for generate-text request: 55705600 bytes
+2024-05-08 03:31:53,120 INFO: RAM usage for generate-text request: 55967744 bytes
+2024-05-08 03:31:53,130 INFO: 127.0.0.1 - - [08/May/2024 03:31:53] "GET / HTTP/1.1" 200 -
+2024-05-08 03:31:53,156 INFO: RAM usage for generate-text request: 76922880 bytes
+2024-05-08 03:31:59,778 INFO: 127.0.0.1 - - [08/May/2024 03:31:59] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:31:59,809 INFO: 127.0.0.1 - - [08/May/2024 03:31:59] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:31:59,822 INFO: RAM usage for generate-text request: 664862720 bytes
+2024-05-08 03:31:59,846 INFO: 127.0.0.1 - - [08/May/2024 03:31:59] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:31:59,853 INFO: RAM usage for generate-text request: 660520960 bytes
+2024-05-08 03:31:59,895 INFO: RAM usage for generate-text request: 656916480 bytes
+2024-05-08 03:32:00,402 INFO: 127.0.0.1 - - [08/May/2024 03:32:00] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:32:00,443 INFO: RAM usage for summarize-text request: 644136960 bytes
+2024-05-08 03:32:01,885 INFO: 127.0.0.1 - - [08/May/2024 03:32:01] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:32:01,910 INFO: RAM usage for summarize-text request: 833863680 bytes
+2024-05-08 03:32:04,168 INFO: 127.0.0.1 - - [08/May/2024 03:32:04] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:32:04,208 INFO: RAM usage for summarize-text request: 838402048 bytes
+2024-05-08 03:32:35,911 INFO: 127.0.0.1 - - [08/May/2024 03:32:35] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:32:35,914 INFO: 127.0.0.1 - - [08/May/2024 03:32:35] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:32:35,986 INFO: RAM usage for summarize-text request: 1776828416 bytes
+2024-05-08 03:32:35,994 INFO: RAM usage for summarize-text request: 1781071872 bytes
+2024-05-08 03:32:36,075 INFO: 127.0.0.1 - - [08/May/2024 03:32:36] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:32:36,116 INFO: RAM usage for summarize-text request: 1693908992 bytes
+2024-05-08 03:32:45,524 INFO: 127.0.0.1 - - [08/May/2024 03:32:45] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:32:45,563 INFO: RAM usage for answer-question request: 1581088768 bytes
+2024-05-08 03:32:45,601 INFO: 127.0.0.1 - - [08/May/2024 03:32:45] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:32:45,610 INFO: 127.0.0.1 - - [08/May/2024 03:32:45] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:32:45,626 INFO: RAM usage for answer-question request: 1597095936 bytes
+2024-05-08 03:32:45,633 INFO: RAM usage for answer-question request: 1599143936 bytes
+2024-05-08 03:32:46,791 INFO: 127.0.0.1 - - [08/May/2024 03:32:46] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:32:46,791 INFO: 127.0.0.1 - - [08/May/2024 03:32:46] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:32:46,791 INFO: 127.0.0.1 - - [08/May/2024 03:32:46] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:32:46,807 INFO: RAM usage for answer-question request: 1382301696 bytes
+2024-05-08 03:32:46,807 INFO: RAM usage for answer-question request: 1382350848 bytes
+2024-05-08 03:32:46,808 INFO: RAM usage for answer-question request: 1382481920 bytes
+2024-05-08 03:32:46,915 INFO: 127.0.0.1 - - [08/May/2024 03:32:46] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:32:46,918 INFO: 127.0.0.1 - - [08/May/2024 03:32:46] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:32:46,923 INFO: 127.0.0.1 - - [08/May/2024 03:32:46] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:32:47,855 INFO: 127.0.0.1 - - [08/May/2024 03:32:47] "GET / HTTP/1.1" 200 -
+2024-05-08 03:32:47,868 INFO: RAM usage for generate-text request: 1296334848 bytes
+2024-05-08 03:32:48,212 INFO: 127.0.0.1 - - [08/May/2024 03:32:48] "GET / HTTP/1.1" 200 -
+2024-05-08 03:32:48,224 INFO: 127.0.0.1 - - [08/May/2024 03:32:48] "GET / HTTP/1.1" 200 -
+2024-05-08 03:32:48,230 INFO: RAM usage for generate-text request: 986480640 bytes
+2024-05-08 03:32:48,238 INFO: RAM usage for generate-text request: 963051520 bytes
+2024-05-08 03:32:51,858 INFO: 127.0.0.1 - - [08/May/2024 03:32:51] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:32:51,889 INFO: RAM usage for generate-text request: 621985792 bytes
+2024-05-08 03:32:52,069 INFO: 127.0.0.1 - - [08/May/2024 03:32:52] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:32:52,103 INFO: RAM usage for generate-text request: 627720192 bytes
+2024-05-08 03:32:52,570 INFO: 127.0.0.1 - - [08/May/2024 03:32:52] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:32:52,611 INFO: RAM usage for generate-text request: 637485056 bytes
+2024-05-08 03:32:56,592 INFO: 127.0.0.1 - - [08/May/2024 03:32:56] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:32:56,629 INFO: RAM usage for summarize-text request: 651542528 bytes
+2024-05-08 03:32:56,840 INFO: 127.0.0.1 - - [08/May/2024 03:32:56] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:32:56,871 INFO: RAM usage for summarize-text request: 820264960 bytes
+2024-05-08 03:32:57,238 INFO: 127.0.0.1 - - [08/May/2024 03:32:57] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:32:57,268 INFO: RAM usage for summarize-text request: 1063550976 bytes
+2024-05-08 03:33:24,790 INFO: 127.0.0.1 - - [08/May/2024 03:33:24] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:33:24,880 INFO: RAM usage for summarize-text request: 2151661568 bytes
+2024-05-08 03:33:24,927 INFO: 127.0.0.1 - - [08/May/2024 03:33:24] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:33:24,979 INFO: 127.0.0.1 - - [08/May/2024 03:33:24] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:33:25,002 INFO: RAM usage for summarize-text request: 1584578560 bytes
+2024-05-08 03:33:25,007 INFO: RAM usage for summarize-text request: 1586872320 bytes
+2024-05-08 03:33:34,261 INFO: 127.0.0.1 - - [08/May/2024 03:33:34] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:33:34,290 INFO: RAM usage for answer-question request: 1590345728 bytes
+2024-05-08 03:33:34,393 INFO: 127.0.0.1 - - [08/May/2024 03:33:34] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:33:34,417 INFO: RAM usage for answer-question request: 1592573952 bytes
+2024-05-08 03:33:34,470 INFO: 127.0.0.1 - - [08/May/2024 03:33:34] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:33:34,490 INFO: RAM usage for answer-question request: 1568276480 bytes
+2024-05-08 03:33:35,496 INFO: 127.0.0.1 - - [08/May/2024 03:33:35] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:33:35,497 INFO: 127.0.0.1 - - [08/May/2024 03:33:35] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:33:35,497 INFO: 127.0.0.1 - - [08/May/2024 03:33:35] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:33:35,511 INFO: RAM usage for answer-question request: 1354186752 bytes
+2024-05-08 03:33:35,512 INFO: RAM usage for answer-question request: 1354776576 bytes
+2024-05-08 03:33:35,513 INFO: RAM usage for answer-question request: 1355350016 bytes
+2024-05-08 03:33:35,611 INFO: 127.0.0.1 - - [08/May/2024 03:33:35] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:33:35,614 INFO: 127.0.0.1 - - [08/May/2024 03:33:35] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:33:35,625 INFO: 127.0.0.1 - - [08/May/2024 03:33:35] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:33:36,205 INFO: 127.0.0.1 - - [08/May/2024 03:33:36] "GET / HTTP/1.1" 200 -
+2024-05-08 03:33:36,220 INFO: RAM usage for generate-text request: 1263484928 bytes
+2024-05-08 03:33:36,351 INFO: 127.0.0.1 - - [08/May/2024 03:33:36] "GET / HTTP/1.1" 200 -
+2024-05-08 03:33:36,361 INFO: RAM usage for generate-text request: 1132085248 bytes
+2024-05-08 03:33:36,753 INFO: 127.0.0.1 - - [08/May/2024 03:33:36] "GET / HTTP/1.1" 200 -
+2024-05-08 03:33:36,773 INFO: RAM usage for generate-text request: 899006464 bytes
+2024-05-08 03:33:41,212 INFO: 127.0.0.1 - - [08/May/2024 03:33:41] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:33:41,243 INFO: RAM usage for generate-text request: 666157056 bytes
+2024-05-08 03:33:42,416 INFO: 127.0.0.1 - - [08/May/2024 03:33:42] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:33:42,446 INFO: 127.0.0.1 - - [08/May/2024 03:33:42] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:33:42,454 INFO: RAM usage for generate-text request: 613597184 bytes
+2024-05-08 03:33:42,472 INFO: RAM usage for generate-text request: 616906752 bytes
+2024-05-08 03:33:44,098 INFO: 127.0.0.1 - - [08/May/2024 03:33:44] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:33:44,136 INFO: RAM usage for summarize-text request: 618528768 bytes
+2024-05-08 03:33:44,180 INFO: 127.0.0.1 - - [08/May/2024 03:33:44] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:33:44,212 INFO: RAM usage for summarize-text request: 689995776 bytes
+2024-05-08 03:33:44,226 INFO: 127.0.0.1 - - [08/May/2024 03:33:44] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:33:44,262 INFO: RAM usage for summarize-text request: 741376000 bytes
+2024-05-08 03:34:17,694 INFO: 127.0.0.1 - - [08/May/2024 03:34:17] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:34:17,765 INFO: RAM usage for summarize-text request: 2009825280 bytes
+2024-05-08 03:34:17,891 INFO: 127.0.0.1 - - [08/May/2024 03:34:17] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:34:17,917 INFO: RAM usage for summarize-text request: 1912487936 bytes
+2024-05-08 03:34:18,327 INFO: 127.0.0.1 - - [08/May/2024 03:34:18] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:34:18,348 INFO: RAM usage for summarize-text request: 1931296768 bytes
+2024-05-08 03:34:28,717 INFO: 127.0.0.1 - - [08/May/2024 03:34:28] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:34:28,748 INFO: RAM usage for answer-question request: 1464565760 bytes
+2024-05-08 03:34:28,786 INFO: 127.0.0.1 - - [08/May/2024 03:34:28] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:34:28,815 INFO: RAM usage for answer-question request: 1478180864 bytes
+2024-05-08 03:34:28,846 INFO: 127.0.0.1 - - [08/May/2024 03:34:28] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:34:28,866 INFO: RAM usage for answer-question request: 1507983360 bytes
+2024-05-08 03:34:29,915 INFO: 127.0.0.1 - - [08/May/2024 03:34:29] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:34:29,915 INFO: 127.0.0.1 - - [08/May/2024 03:34:29] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:34:29,915 INFO: 127.0.0.1 - - [08/May/2024 03:34:29] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:34:29,929 INFO: RAM usage for answer-question request: 1155514368 bytes
+2024-05-08 03:34:29,929 INFO: RAM usage for answer-question request: 1155547136 bytes
+2024-05-08 03:34:29,930 INFO: RAM usage for answer-question request: 1155825664 bytes
+2024-05-08 03:34:30,039 INFO: 127.0.0.1 - - [08/May/2024 03:34:30] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:34:30,039 INFO: 127.0.0.1 - - [08/May/2024 03:34:30] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:34:30,049 INFO: 127.0.0.1 - - [08/May/2024 03:34:30] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:34:30,619 INFO: 127.0.0.1 - - [08/May/2024 03:34:30] "GET / HTTP/1.1" 200 -
+2024-05-08 03:34:30,631 INFO: RAM usage for generate-text request: 882262016 bytes
+2024-05-08 03:34:30,645 INFO: 127.0.0.1 - - [08/May/2024 03:34:30] "GET / HTTP/1.1" 200 -
+2024-05-08 03:34:30,656 INFO: RAM usage for generate-text request: 885309440 bytes
+2024-05-08 03:34:31,148 INFO: 127.0.0.1 - - [08/May/2024 03:34:31] "GET / HTTP/1.1" 200 -
+2024-05-08 03:34:31,158 INFO: RAM usage for generate-text request: 618086400 bytes
+2024-05-08 03:34:34,652 INFO: 127.0.0.1 - - [08/May/2024 03:34:34] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:34:34,688 INFO: RAM usage for generate-text request: 631029760 bytes
+2024-05-08 03:34:37,416 INFO: 127.0.0.1 - - [08/May/2024 03:34:37] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:34:37,447 INFO: 127.0.0.1 - - [08/May/2024 03:34:37] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:34:37,448 INFO: RAM usage for generate-text request: 672874496 bytes
+2024-05-08 03:34:37,476 INFO: RAM usage for generate-text request: 670842880 bytes
+2024-05-08 03:34:38,969 INFO: 127.0.0.1 - - [08/May/2024 03:34:38] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:34:38,994 INFO: RAM usage for summarize-text request: 658079744 bytes
+2024-05-08 03:34:41,926 INFO: 127.0.0.1 - - [08/May/2024 03:34:41] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:34:41,927 INFO: 127.0.0.1 - - [08/May/2024 03:34:41] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:34:41,978 INFO: RAM usage for summarize-text request: 1103626240 bytes
+2024-05-08 03:34:41,979 INFO: RAM usage for summarize-text request: 1107869696 bytes
+2024-05-08 03:35:11,558 INFO: 127.0.0.1 - - [08/May/2024 03:35:11] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:35:11,626 INFO: RAM usage for summarize-text request: 2130837504 bytes
+2024-05-08 03:35:12,454 INFO: 127.0.0.1 - - [08/May/2024 03:35:12] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:35:12,472 INFO: 127.0.0.1 - - [08/May/2024 03:35:12] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:35:12,489 INFO: RAM usage for summarize-text request: 1453326336 bytes
+2024-05-08 03:35:12,503 INFO: RAM usage for summarize-text request: 1473183744 bytes
+2024-05-08 03:35:24,723 INFO: 127.0.0.1 - - [08/May/2024 03:35:24] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:35:24,757 INFO: RAM usage for answer-question request: 1504247808 bytes
+2024-05-08 03:35:24,976 INFO: 127.0.0.1 - - [08/May/2024 03:35:24] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:35:24,986 INFO: 127.0.0.1 - - [08/May/2024 03:35:24] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:35:25,000 INFO: RAM usage for answer-question request: 1091813376 bytes
+2024-05-08 03:35:25,008 INFO: RAM usage for answer-question request: 1097203712 bytes
+2024-05-08 03:35:26,244 INFO: 127.0.0.1 - - [08/May/2024 03:35:26] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:35:26,244 INFO: 127.0.0.1 - - [08/May/2024 03:35:26] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:35:26,244 INFO: 127.0.0.1 - - [08/May/2024 03:35:26] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:35:26,272 INFO: RAM usage for answer-question request: 421003264 bytes
+2024-05-08 03:35:26,274 INFO: RAM usage for answer-question request: 413466624 bytes
+2024-05-08 03:35:26,275 INFO: RAM usage for answer-question request: 411467776 bytes
+2024-05-08 03:35:26,425 INFO: 127.0.0.1 - - [08/May/2024 03:35:26] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:35:26,428 INFO: 127.0.0.1 - - [08/May/2024 03:35:26] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:35:26,438 INFO: 127.0.0.1 - - [08/May/2024 03:35:26] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:35:27,193 INFO: 127.0.0.1 - - [08/May/2024 03:35:27] "GET / HTTP/1.1" 200 -
+2024-05-08 03:35:27,210 INFO: RAM usage for generate-text request: 416104448 bytes
+2024-05-08 03:35:27,435 INFO: 127.0.0.1 - - [08/May/2024 03:35:27] "GET / HTTP/1.1" 200 -
+2024-05-08 03:35:27,445 INFO: RAM usage for generate-text request: 492814336 bytes
+2024-05-08 03:35:27,911 INFO: 127.0.0.1 - - [08/May/2024 03:35:27] "GET / HTTP/1.1" 200 -
+2024-05-08 03:35:27,922 INFO: RAM usage for generate-text request: 537575424 bytes
+2024-05-08 03:35:33,377 INFO: 127.0.0.1 - - [08/May/2024 03:35:33] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:35:33,401 INFO: RAM usage for generate-text request: 663257088 bytes
+2024-05-08 03:35:33,475 INFO: 127.0.0.1 - - [08/May/2024 03:35:33] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:35:33,477 INFO: 127.0.0.1 - - [08/May/2024 03:35:33] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:35:33,501 INFO: RAM usage for generate-text request: 663683072 bytes
+2024-05-08 03:35:33,512 INFO: RAM usage for generate-text request: 663961600 bytes
+2024-05-08 03:35:39,122 INFO: 127.0.0.1 - - [08/May/2024 03:35:39] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:35:39,163 INFO: RAM usage for summarize-text request: 642760704 bytes
+2024-05-08 03:35:39,321 INFO: 127.0.0.1 - - [08/May/2024 03:35:39] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:35:39,326 INFO: 127.0.0.1 - - [08/May/2024 03:35:39] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:35:39,353 INFO: RAM usage for summarize-text request: 736919552 bytes
+2024-05-08 03:35:39,354 INFO: RAM usage for summarize-text request: 737017856 bytes
+2024-05-08 03:36:11,269 INFO: 127.0.0.1 - - [08/May/2024 03:36:11] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:36:11,446 INFO: RAM usage for summarize-text request: 1848541184 bytes
+2024-05-08 03:36:12,049 INFO: 127.0.0.1 - - [08/May/2024 03:36:12] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:36:12,129 INFO: RAM usage for summarize-text request: 1225261056 bytes
+2024-05-08 03:36:12,846 INFO: 127.0.0.1 - - [08/May/2024 03:36:12] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:36:12,891 INFO: RAM usage for summarize-text request: 1826504704 bytes
+2024-05-08 03:36:36,341 INFO: 127.0.0.1 - - [08/May/2024 03:36:36] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:36:36,423 INFO: RAM usage for answer-question request: 1537064960 bytes
+2024-05-08 03:36:36,515 INFO: 127.0.0.1 - - [08/May/2024 03:36:36] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:36:36,572 INFO: RAM usage for answer-question request: 1571536896 bytes
+2024-05-08 03:36:36,578 INFO: 127.0.0.1 - - [08/May/2024 03:36:36] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:36:36,643 INFO: RAM usage for answer-question request: 1593622528 bytes
+2024-05-08 03:36:37,968 INFO: 127.0.0.1 - - [08/May/2024 03:36:37] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:36:37,968 INFO: 127.0.0.1 - - [08/May/2024 03:36:37] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:36:37,968 INFO: 127.0.0.1 - - [08/May/2024 03:36:37] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:36:38,001 INFO: RAM usage for answer-question request: 427474944 bytes
+2024-05-08 03:36:38,001 INFO: RAM usage for answer-question request: 427540480 bytes
+2024-05-08 03:36:38,002 INFO: RAM usage for answer-question request: 428670976 bytes
+2024-05-08 03:36:38,153 INFO: 127.0.0.1 - - [08/May/2024 03:36:38] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:36:38,165 INFO: 127.0.0.1 - - [08/May/2024 03:36:38] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:36:38,167 INFO: 127.0.0.1 - - [08/May/2024 03:36:38] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:36:39,130 INFO: 127.0.0.1 - - [08/May/2024 03:36:39] "GET / HTTP/1.1" 200 -
+2024-05-08 03:36:39,149 INFO: RAM usage for generate-text request: 320487424 bytes
+2024-05-08 03:36:39,472 INFO: 127.0.0.1 - - [08/May/2024 03:36:39] "GET / HTTP/1.1" 200 -
+2024-05-08 03:36:39,482 INFO: RAM usage for generate-text request: 253902848 bytes
+2024-05-08 03:36:39,509 INFO: 127.0.0.1 - - [08/May/2024 03:36:39] "GET / HTTP/1.1" 200 -
+2024-05-08 03:36:39,523 INFO: RAM usage for generate-text request: 209141760 bytes
+2024-05-08 03:36:47,198 INFO: 127.0.0.1 - - [08/May/2024 03:36:47] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:36:47,234 INFO: RAM usage for generate-text request: 658522112 bytes
+2024-05-08 03:36:47,267 INFO: 127.0.0.1 - - [08/May/2024 03:36:47] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:36:47,294 INFO: RAM usage for generate-text request: 624836608 bytes
+2024-05-08 03:36:47,319 INFO: 127.0.0.1 - - [08/May/2024 03:36:47] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:36:47,355 INFO: RAM usage for generate-text request: 620314624 bytes
+2024-05-08 03:36:48,083 INFO: 127.0.0.1 - - [08/May/2024 03:36:48] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:36:48,104 INFO: RAM usage for summarize-text request: 645545984 bytes
+2024-05-08 03:36:49,522 INFO: 127.0.0.1 - - [08/May/2024 03:36:49] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:36:49,573 INFO: RAM usage for summarize-text request: 798818304 bytes
+2024-05-08 03:36:52,271 INFO: 127.0.0.1 - - [08/May/2024 03:36:52] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:36:52,318 INFO: RAM usage for summarize-text request: 837107712 bytes
+2024-05-08 03:37:29,802 INFO: 127.0.0.1 - - [08/May/2024 03:37:29] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:37:29,804 INFO: 127.0.0.1 - - [08/May/2024 03:37:29] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:37:29,885 INFO: RAM usage for summarize-text request: 1738932224 bytes
+2024-05-08 03:37:29,887 INFO: RAM usage for summarize-text request: 1740996608 bytes
+2024-05-08 03:37:29,974 INFO: 127.0.0.1 - - [08/May/2024 03:37:29] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:37:30,028 INFO: RAM usage for summarize-text request: 1549041664 bytes
+2024-05-08 03:37:47,995 INFO: 127.0.0.1 - - [08/May/2024 03:37:47] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:37:48,104 INFO: RAM usage for answer-question request: 1513504768 bytes
+2024-05-08 03:37:48,204 INFO: 127.0.0.1 - - [08/May/2024 03:37:48] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:37:48,240 INFO: RAM usage for answer-question request: 1332494336 bytes
+2024-05-08 03:37:48,245 INFO: 127.0.0.1 - - [08/May/2024 03:37:48] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:37:48,269 INFO: RAM usage for answer-question request: 1343111168 bytes
+2024-05-08 03:37:49,617 INFO: 127.0.0.1 - - [08/May/2024 03:37:49] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:37:49,618 INFO: 127.0.0.1 - - [08/May/2024 03:37:49] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:37:49,618 INFO: 127.0.0.1 - - [08/May/2024 03:37:49] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:37:49,643 INFO: RAM usage for answer-question request: 464814080 bytes
+2024-05-08 03:37:49,646 INFO: RAM usage for answer-question request: 463896576 bytes
+2024-05-08 03:37:49,649 INFO: RAM usage for answer-question request: 462700544 bytes
+2024-05-08 03:37:49,784 INFO: 127.0.0.1 - - [08/May/2024 03:37:49] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:37:49,786 INFO: 127.0.0.1 - - [08/May/2024 03:37:49] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:37:49,795 INFO: 127.0.0.1 - - [08/May/2024 03:37:49] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:37:51,057 INFO: 127.0.0.1 - - [08/May/2024 03:37:51] "GET / HTTP/1.1" 200 -
+2024-05-08 03:37:51,058 INFO: 127.0.0.1 - - [08/May/2024 03:37:51] "GET / HTTP/1.1" 200 -
+2024-05-08 03:37:51,108 INFO: 127.0.0.1 - - [08/May/2024 03:37:51] "GET / HTTP/1.1" 200 -
+2024-05-08 03:37:51,129 INFO: RAM usage for generate-text request: 116473856 bytes
+2024-05-08 03:37:51,136 INFO: RAM usage for generate-text request: 113557504 bytes
+2024-05-08 03:37:51,139 INFO: RAM usage for generate-text request: 112394240 bytes
+2024-05-08 03:37:58,480 INFO: 127.0.0.1 - - [08/May/2024 03:37:58] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:37:58,522 INFO: RAM usage for generate-text request: 666124288 bytes
+2024-05-08 03:37:58,524 INFO: 127.0.0.1 - - [08/May/2024 03:37:58] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:37:58,552 INFO: RAM usage for generate-text request: 669450240 bytes
+2024-05-08 03:37:58,571 INFO: 127.0.0.1 - - [08/May/2024 03:37:58] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:37:58,597 INFO: RAM usage for generate-text request: 670384128 bytes
+2024-05-08 03:37:58,637 INFO: 127.0.0.1 - - [08/May/2024 03:37:58] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:37:58,656 INFO: RAM usage for summarize-text request: 671760384 bytes
+2024-05-08 03:38:04,194 INFO: 127.0.0.1 - - [08/May/2024 03:38:04] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:38:04,208 INFO: 127.0.0.1 - - [08/May/2024 03:38:04] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:38:04,437 INFO: RAM usage for summarize-text request: 743456768 bytes
+2024-05-08 03:38:04,442 INFO: RAM usage for summarize-text request: 746586112 bytes
+2024-05-08 03:38:39,110 INFO: 127.0.0.1 - - [08/May/2024 03:38:39] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:38:39,241 INFO: RAM usage for summarize-text request: 2142208000 bytes
+2024-05-08 03:38:39,745 INFO: 127.0.0.1 - - [08/May/2024 03:38:39] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:38:39,839 INFO: RAM usage for summarize-text request: 1871970304 bytes
+2024-05-08 03:38:40,017 INFO: 127.0.0.1 - - [08/May/2024 03:38:40] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:38:40,073 INFO: RAM usage for summarize-text request: 1643757568 bytes
+2024-05-08 03:38:51,702 INFO: 127.0.0.1 - - [08/May/2024 03:38:51] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:38:51,726 INFO: 127.0.0.1 - - [08/May/2024 03:38:51] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:38:51,731 INFO: RAM usage for answer-question request: 1495973888 bytes
+2024-05-08 03:38:51,753 INFO: RAM usage for answer-question request: 1474494464 bytes
+2024-05-08 03:38:52,202 INFO: 127.0.0.1 - - [08/May/2024 03:38:52] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:38:52,225 INFO: RAM usage for answer-question request: 1336623104 bytes
+2024-05-08 03:38:53,443 INFO: 127.0.0.1 - - [08/May/2024 03:38:53] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:38:53,443 INFO: 127.0.0.1 - - [08/May/2024 03:38:53] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:38:53,444 INFO: 127.0.0.1 - - [08/May/2024 03:38:53] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:38:53,519 INFO: RAM usage for answer-question request: 319324160 bytes
+2024-05-08 03:38:53,521 INFO: RAM usage for answer-question request: 319553536 bytes
+2024-05-08 03:38:53,525 INFO: RAM usage for answer-question request: 320684032 bytes
+2024-05-08 03:38:53,976 INFO: 127.0.0.1 - - [08/May/2024 03:38:53] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:38:53,978 INFO: 127.0.0.1 - - [08/May/2024 03:38:53] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:38:53,987 INFO: 127.0.0.1 - - [08/May/2024 03:38:53] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:38:54,541 INFO: 127.0.0.1 - - [08/May/2024 03:38:54] "GET / HTTP/1.1" 200 -
+2024-05-08 03:38:54,552 INFO: RAM usage for generate-text request: 472088576 bytes
+2024-05-08 03:38:54,991 INFO: 127.0.0.1 - - [08/May/2024 03:38:54] "GET / HTTP/1.1" 200 -
+2024-05-08 03:38:55,000 INFO: RAM usage for generate-text request: 320667648 bytes
+2024-05-08 03:38:55,356 INFO: 127.0.0.1 - - [08/May/2024 03:38:55] "GET / HTTP/1.1" 200 -
+2024-05-08 03:38:55,371 INFO: RAM usage for generate-text request: 273596416 bytes
+2024-05-08 03:38:57,567 INFO: 127.0.0.1 - - [08/May/2024 03:38:57] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:38:57,603 INFO: RAM usage for generate-text request: 574849024 bytes
+2024-05-08 03:39:05,279 INFO: 127.0.0.1 - - [08/May/2024 03:39:05] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:39:05,346 INFO: 127.0.0.1 - - [08/May/2024 03:39:05] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:39:05,503 INFO: RAM usage for generate-text request: 641466368 bytes
+2024-05-08 03:39:05,520 INFO: RAM usage for generate-text request: 642105344 bytes
+2024-05-08 03:39:05,650 INFO: 127.0.0.1 - - [08/May/2024 03:39:05] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:39:05,873 INFO: RAM usage for summarize-text request: 623296512 bytes
+2024-05-08 03:39:06,517 INFO: 127.0.0.1 - - [08/May/2024 03:39:06] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:39:06,581 INFO: RAM usage for summarize-text request: 626016256 bytes
+2024-05-08 03:39:09,958 INFO: 127.0.0.1 - - [08/May/2024 03:39:09] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:39:09,999 INFO: RAM usage for summarize-text request: 798474240 bytes
+2024-05-08 03:39:48,570 INFO: 127.0.0.1 - - [08/May/2024 03:39:48] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:39:48,573 INFO: 127.0.0.1 - - [08/May/2024 03:39:48] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:39:48,712 INFO: RAM usage for summarize-text request: 1814855680 bytes
+2024-05-08 03:39:48,717 INFO: RAM usage for summarize-text request: 1815609344 bytes
+2024-05-08 03:39:48,879 INFO: 127.0.0.1 - - [08/May/2024 03:39:48] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:39:48,951 INFO: RAM usage for summarize-text request: 1585184768 bytes
+2024-05-08 03:39:58,609 INFO: 127.0.0.1 - - [08/May/2024 03:39:58] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:39:58,641 INFO: RAM usage for answer-question request: 1539948544 bytes
+2024-05-08 03:39:58,782 INFO: 127.0.0.1 - - [08/May/2024 03:39:58] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:39:58,813 INFO: RAM usage for answer-question request: 1537523712 bytes
+2024-05-08 03:39:58,911 INFO: 127.0.0.1 - - [08/May/2024 03:39:58] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:39:58,936 INFO: RAM usage for answer-question request: 1542733824 bytes
+2024-05-08 03:40:00,050 INFO: 127.0.0.1 - - [08/May/2024 03:40:00] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:40:00,051 INFO: 127.0.0.1 - - [08/May/2024 03:40:00] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:40:00,051 INFO: 127.0.0.1 - - [08/May/2024 03:40:00] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:40:00,079 INFO: RAM usage for answer-question request: 1317650432 bytes
+2024-05-08 03:40:00,080 INFO: RAM usage for answer-question request: 1314717696 bytes
+2024-05-08 03:40:00,080 INFO: RAM usage for answer-question request: 1308557312 bytes
+2024-05-08 03:40:00,183 INFO: 127.0.0.1 - - [08/May/2024 03:40:00] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:40:00,206 INFO: 127.0.0.1 - - [08/May/2024 03:40:00] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:40:00,210 INFO: 127.0.0.1 - - [08/May/2024 03:40:00] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:40:01,159 INFO: 127.0.0.1 - - [08/May/2024 03:40:01] "GET / HTTP/1.1" 200 -
+2024-05-08 03:40:01,177 INFO: RAM usage for generate-text request: 410714112 bytes
+2024-05-08 03:40:01,426 INFO: 127.0.0.1 - - [08/May/2024 03:40:01] "GET / HTTP/1.1" 200 -
+2024-05-08 03:40:01,439 INFO: RAM usage for generate-text request: 407666688 bytes
+2024-05-08 03:40:01,562 INFO: 127.0.0.1 - - [08/May/2024 03:40:01] "GET / HTTP/1.1" 200 -
+2024-05-08 03:40:01,573 INFO: RAM usage for generate-text request: 336625664 bytes
+2024-05-08 03:40:04,435 INFO: 127.0.0.1 - - [08/May/2024 03:40:04] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:40:04,478 INFO: RAM usage for generate-text request: 620707840 bytes
+2024-05-08 03:40:05,993 INFO: 127.0.0.1 - - [08/May/2024 03:40:05] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:40:06,018 INFO: RAM usage for summarize-text request: 640172032 bytes
+2024-05-08 03:40:07,914 INFO: 127.0.0.1 - - [08/May/2024 03:40:07] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:40:07,917 INFO: 127.0.0.1 - - [08/May/2024 03:40:07] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:40:07,977 INFO: RAM usage for generate-text request: 1022787584 bytes
+2024-05-08 03:40:07,979 INFO: RAM usage for generate-text request: 1030324224 bytes
+2024-05-08 03:40:11,715 INFO: 127.0.0.1 - - [08/May/2024 03:40:11] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:40:11,752 INFO: RAM usage for summarize-text request: 1335738368 bytes
+2024-05-08 03:40:13,900 INFO: 127.0.0.1 - - [08/May/2024 03:40:13] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:40:13,946 INFO: RAM usage for summarize-text request: 1682096128 bytes
+2024-05-08 03:40:39,704 INFO: 127.0.0.1 - - [08/May/2024 03:40:39] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:40:39,800 INFO: RAM usage for summarize-text request: 1710489600 bytes
+2024-05-08 03:40:42,615 INFO: 127.0.0.1 - - [08/May/2024 03:40:42] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:40:42,671 INFO: RAM usage for summarize-text request: 1832943616 bytes
+2024-05-08 03:40:43,843 INFO: 127.0.0.1 - - [08/May/2024 03:40:43] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:40:43,877 INFO: RAM usage for summarize-text request: 2099560448 bytes
+2024-05-08 03:40:53,244 INFO: 127.0.0.1 - - [08/May/2024 03:40:53] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:40:53,284 INFO: RAM usage for answer-question request: 1516306432 bytes
+2024-05-08 03:40:53,395 INFO: 127.0.0.1 - - [08/May/2024 03:40:53] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:40:53,418 INFO: RAM usage for answer-question request: 1547059200 bytes
+2024-05-08 03:40:54,509 INFO: 127.0.0.1 - - [08/May/2024 03:40:54] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:40:54,509 INFO: 127.0.0.1 - - [08/May/2024 03:40:54] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:40:54,523 INFO: 127.0.0.1 - - [08/May/2024 03:40:54] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:40:54,538 INFO: RAM usage for answer-question request: 1307164672 bytes
+2024-05-08 03:40:54,539 INFO: RAM usage for answer-question request: 1307197440 bytes
+2024-05-08 03:40:54,557 INFO: RAM usage for answer-question request: 1278640128 bytes
+2024-05-08 03:40:54,709 INFO: 127.0.0.1 - - [08/May/2024 03:40:54] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:40:54,726 INFO: RAM usage for answer-question request: 1441349632 bytes
+2024-05-08 03:40:54,735 INFO: 127.0.0.1 - - [08/May/2024 03:40:54] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:40:54,745 INFO: 127.0.0.1 - - [08/May/2024 03:40:54] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:40:54,820 INFO: 127.0.0.1 - - [08/May/2024 03:40:54] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:40:55,449 INFO: 127.0.0.1 - - [08/May/2024 03:40:55] "GET / HTTP/1.1" 200 -
+2024-05-08 03:40:55,468 INFO: RAM usage for generate-text request: 814481408 bytes
+2024-05-08 03:40:56,157 INFO: 127.0.0.1 - - [08/May/2024 03:40:56] "GET / HTTP/1.1" 200 -
+2024-05-08 03:40:56,174 INFO: RAM usage for generate-text request: 603029504 bytes
+2024-05-08 03:40:56,198 INFO: 127.0.0.1 - - [08/May/2024 03:40:56] "GET / HTTP/1.1" 200 -
+2024-05-08 03:40:56,214 INFO: RAM usage for generate-text request: 614514688 bytes
+2024-05-08 03:40:56,921 INFO: 127.0.0.1 - - [08/May/2024 03:40:56] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:40:56,950 INFO: RAM usage for generate-text request: 624312320 bytes
+2024-05-08 03:40:57,627 INFO: 127.0.0.1 - - [08/May/2024 03:40:57] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:40:57,649 INFO: RAM usage for generate-text request: 630865920 bytes
+2024-05-08 03:40:58,784 INFO: 127.0.0.1 - - [08/May/2024 03:40:58] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:40:58,839 INFO: RAM usage for summarize-text request: 631652352 bytes
+2024-05-08 03:40:59,257 INFO: 127.0.0.1 - - [08/May/2024 03:40:59] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:40:59,296 INFO: RAM usage for generate-text request: 818626560 bytes
+2024-05-08 03:40:59,526 INFO: 127.0.0.1 - - [08/May/2024 03:40:59] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:40:59,558 INFO: RAM usage for summarize-text request: 898449408 bytes
+2024-05-08 03:41:00,551 INFO: 127.0.0.1 - - [08/May/2024 03:41:00] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:41:00,585 INFO: RAM usage for summarize-text request: 1007271936 bytes
+2024-05-08 03:41:27,492 INFO: 127.0.0.1 - - [08/May/2024 03:41:27] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:41:27,592 INFO: RAM usage for summarize-text request: 2164654080 bytes
+2024-05-08 03:41:27,668 INFO: 127.0.0.1 - - [08/May/2024 03:41:27] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:41:27,718 INFO: RAM usage for summarize-text request: 1871642624 bytes
+2024-05-08 03:41:27,797 INFO: 127.0.0.1 - - [08/May/2024 03:41:27] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:41:27,855 INFO: RAM usage for summarize-text request: 1611317248 bytes
+2024-05-08 03:41:37,464 INFO: 127.0.0.1 - - [08/May/2024 03:41:37] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:41:37,498 INFO: RAM usage for answer-question request: 1549451264 bytes
+2024-05-08 03:41:37,518 INFO: 127.0.0.1 - - [08/May/2024 03:41:37] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:41:37,542 INFO: RAM usage for answer-question request: 1529790464 bytes
+2024-05-08 03:41:37,753 INFO: 127.0.0.1 - - [08/May/2024 03:41:37] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:41:37,780 INFO: RAM usage for answer-question request: 1556578304 bytes
+2024-05-08 03:41:38,735 INFO: 127.0.0.1 - - [08/May/2024 03:41:38] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:41:38,736 INFO: 127.0.0.1 - - [08/May/2024 03:41:38] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:41:38,737 INFO: 127.0.0.1 - - [08/May/2024 03:41:38] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:41:38,759 INFO: RAM usage for answer-question request: 1254326272 bytes
+2024-05-08 03:41:38,760 INFO: RAM usage for answer-question request: 1254506496 bytes
+2024-05-08 03:41:38,762 INFO: RAM usage for answer-question request: 1255374848 bytes
+2024-05-08 03:41:38,857 INFO: 127.0.0.1 - - [08/May/2024 03:41:38] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:41:38,870 INFO: 127.0.0.1 - - [08/May/2024 03:41:38] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:41:38,876 INFO: 127.0.0.1 - - [08/May/2024 03:41:38] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 03:41:39,735 INFO: 127.0.0.1 - - [08/May/2024 03:41:39] "GET / HTTP/1.1" 200 -
+2024-05-08 03:41:39,754 INFO: RAM usage for generate-text request: 816414720 bytes
+2024-05-08 03:41:40,185 INFO: 127.0.0.1 - - [08/May/2024 03:41:40] "GET / HTTP/1.1" 200 -
+2024-05-08 03:41:40,197 INFO: RAM usage for generate-text request: 591724544 bytes
+2024-05-08 03:41:40,232 INFO: 127.0.0.1 - - [08/May/2024 03:41:40] "GET / HTTP/1.1" 200 -
+2024-05-08 03:41:40,246 INFO: RAM usage for generate-text request: 453869568 bytes
+2024-05-08 03:41:46,156 INFO: 127.0.0.1 - - [08/May/2024 03:41:46] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:41:46,198 INFO: 127.0.0.1 - - [08/May/2024 03:41:46] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:41:46,205 INFO: 127.0.0.1 - - [08/May/2024 03:41:46] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:41:46,206 INFO: RAM usage for generate-text request: 660586496 bytes
+2024-05-08 03:41:46,223 INFO: RAM usage for generate-text request: 663273472 bytes
+2024-05-08 03:41:46,228 INFO: RAM usage for generate-text request: 663470080 bytes
+2024-05-08 03:41:48,789 INFO: 127.0.0.1 - - [08/May/2024 03:41:48] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:41:48,832 INFO: RAM usage for summarize-text request: 636256256 bytes
+2024-05-08 03:41:50,665 INFO: 127.0.0.1 - - [08/May/2024 03:41:50] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:41:50,735 INFO: RAM usage for summarize-text request: 1043922944 bytes
+2024-05-08 03:41:50,821 INFO: 127.0.0.1 - - [08/May/2024 03:41:50] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 03:41:50,857 INFO: RAM usage for summarize-text request: 1193721856 bytes
+2024-05-08 03:42:10,787 INFO: 127.0.0.1 - - [08/May/2024 03:42:10] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:42:10,892 INFO: 127.0.0.1 - - [08/May/2024 03:42:10] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 03:42:11,005 INFO: 127.0.0.1 - - [08/May/2024 03:42:11] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 08:21:13,644 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.45.4:5001
+2024-05-08 08:21:13,645 INFO: [33mPress CTRL+C to quit[0m
+2024-05-08 08:21:13,647 INFO:  * Restarting with stat
+2024-05-08 08:21:30,070 WARNING:  * Debugger is active!
+2024-05-08 08:21:30,519 INFO:  * Debugger PIN: 569-720-432
+2024-05-08 08:22:45,170 INFO: 127.0.0.1 - - [08/May/2024 08:22:45] "GET / HTTP/1.1" 200 -
+2024-05-08 08:23:41,266 INFO: 127.0.0.1 - - [08/May/2024 08:23:41] "GET / HTTP/1.1" 200 -
+2024-05-08 08:23:41,283 INFO: RAM usage for generate-text request: 62619648 bytes
+2024-05-08 08:23:45,974 INFO: 127.0.0.1 - - [08/May/2024 08:23:45] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:23:46,021 INFO: RAM usage for generate-text request: 629489664 bytes
+2024-05-08 08:23:47,944 INFO: 127.0.0.1 - - [08/May/2024 08:23:47] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:23:47,971 INFO: RAM usage for summarize-text request: 642531328 bytes
+2024-05-08 08:24:03,786 INFO: 127.0.0.1 - - [08/May/2024 08:24:03] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 08:24:03,813 INFO: RAM usage for summarize-text request: 1326792704 bytes
+2024-05-08 08:24:08,609 INFO: 127.0.0.1 - - [08/May/2024 08:24:08] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 08:24:08,636 INFO: RAM usage for answer-question request: 1236729856 bytes
+2024-05-08 08:24:10,224 INFO: 127.0.0.1 - - [08/May/2024 08:24:10] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 08:24:10,253 INFO: RAM usage for answer-question request: 588546048 bytes
+2024-05-08 08:24:10,371 INFO: 127.0.0.1 - - [08/May/2024 08:24:10] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 08:25:07,349 INFO: 127.0.0.1 - - [08/May/2024 08:25:07] "GET / HTTP/1.1" 200 -
+2024-05-08 08:25:07,371 INFO: RAM usage for generate-text request: 47841280 bytes
+2024-05-08 08:25:11,244 INFO: 127.0.0.1 - - [08/May/2024 08:25:11] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:25:11,289 INFO: RAM usage for generate-text request: 633192448 bytes
+2024-05-08 08:25:13,172 INFO: 127.0.0.1 - - [08/May/2024 08:25:13] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:25:13,194 INFO: RAM usage for summarize-text request: 636698624 bytes
+2024-05-08 08:25:27,600 INFO: 127.0.0.1 - - [08/May/2024 08:25:27] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 08:25:27,629 INFO: RAM usage for summarize-text request: 1355235328 bytes
+2024-05-08 08:25:32,033 INFO: 127.0.0.1 - - [08/May/2024 08:25:32] "POST /summarize-text HTTP/1.1" 200 -
+2024-05-08 08:25:32,060 INFO: RAM usage for answer-question request: 1246511104 bytes
+2024-05-08 08:25:33,182 INFO: 127.0.0.1 - - [08/May/2024 08:25:33] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 08:25:33,203 INFO: RAM usage for answer-question request: 875036672 bytes
+2024-05-08 08:25:33,271 INFO: 127.0.0.1 - - [08/May/2024 08:25:33] "POST /answer-question HTTP/1.1" 200 -
+2024-05-08 08:26:03,262 INFO: 127.0.0.1 - - [08/May/2024 08:26:03] "GET / HTTP/1.1" 200 -
+2024-05-08 08:26:03,281 INFO: 127.0.0.1 - - [08/May/2024 08:26:03] "GET / HTTP/1.1" 200 -
+2024-05-08 08:26:03,286 INFO: 127.0.0.1 - - [08/May/2024 08:26:03] "GET / HTTP/1.1" 200 -
+2024-05-08 08:26:03,290 INFO: RAM usage for generate-text request: 49725440 bytes
+2024-05-08 08:26:03,293 INFO: 127.0.0.1 - - [08/May/2024 08:26:03] "GET / HTTP/1.1" 200 -
+2024-05-08 08:26:03,303 INFO: RAM usage for generate-text request: 57753600 bytes
+2024-05-08 08:26:03,306 INFO: RAM usage for generate-text request: 59555840 bytes
+2024-05-08 08:26:03,311 INFO: RAM usage for generate-text request: 62226432 bytes
+2024-05-08 08:26:12,015 INFO: 127.0.0.1 - - [08/May/2024 08:26:12] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:26:12,041 INFO: 127.0.0.1 - - [08/May/2024 08:26:12] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:26:12,059 INFO: RAM usage for generate-text request: 684670976 bytes
+2024-05-08 08:26:12,064 INFO: 127.0.0.1 - - [08/May/2024 08:26:12] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:26:12,084 INFO: RAM usage for generate-text request: 678952960 bytes
+2024-05-08 08:26:12,111 INFO: RAM usage for generate-text request: 678248448 bytes
+2024-05-08 08:26:12,114 INFO: 127.0.0.1 - - [08/May/2024 08:26:12] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:26:12,157 INFO: RAM usage for generate-text request: 679313408 bytes
+2024-05-08 08:26:13,113 INFO: 127.0.0.1 - - [08/May/2024 08:26:13] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:26:13,148 INFO: RAM usage for summarize-text request: 669827072 bytes
+2024-05-08 08:26:18,026 INFO: 127.0.0.1 - - [08/May/2024 08:26:18] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:26:18,074 INFO: RAM usage for summarize-text request: 805289984 bytes
+2024-05-08 08:26:18,238 INFO: 127.0.0.1 - - [08/May/2024 08:26:18] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:26:18,240 INFO: 127.0.0.1 - - [08/May/2024 08:26:18] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:26:18,272 INFO: RAM usage for summarize-text request: 948273152 bytes
+2024-05-08 08:26:18,277 INFO: RAM usage for summarize-text request: 952729600 bytes
+2024-05-08 08:26:44,869 INFO: 127.0.0.1 - - [08/May/2024 08:26:44] "GET / HTTP/1.1" 200 -
+2024-05-08 08:26:44,921 INFO: RAM usage for generate-text request: 875036672 bytes
+2024-05-08 08:26:46,809 INFO: 127.0.0.1 - - [08/May/2024 08:26:46] "GET / HTTP/1.1" 200 -
+2024-05-08 08:26:46,861 INFO: RAM usage for generate-text request: 1229504512 bytes
+2024-05-08 08:26:49,772 INFO: 127.0.0.1 - - [08/May/2024 08:26:49] "GET / HTTP/1.1" 200 -
+2024-05-08 08:26:49,859 INFO: RAM usage for generate-text request: 530464768 bytes
+2024-05-08 08:26:51,156 INFO: 127.0.0.1 - - [08/May/2024 08:26:51] "GET / HTTP/1.1" 200 -
+2024-05-08 08:26:51,187 INFO: RAM usage for generate-text request: 216973312 bytes
+2024-05-08 08:26:52,580 INFO: 127.0.0.1 - - [08/May/2024 08:26:52] "GET / HTTP/1.1" 200 -
+2024-05-08 08:26:52,599 INFO: RAM usage for generate-text request: 711688192 bytes
+2024-05-08 08:26:54,533 INFO: 127.0.0.1 - - [08/May/2024 08:26:54] "GET / HTTP/1.1" 200 -
+2024-05-08 08:26:54,549 INFO: RAM usage for generate-text request: 811220992 bytes
+2024-05-08 08:26:57,412 INFO: 127.0.0.1 - - [08/May/2024 08:26:57] "GET / HTTP/1.1" 200 -
+2024-05-08 08:26:57,421 INFO: 127.0.0.1 - - [08/May/2024 08:26:57] "GET / HTTP/1.1" 200 -
+2024-05-08 08:26:57,440 INFO: RAM usage for generate-text request: 829014016 bytes
+2024-05-08 08:26:57,451 INFO: RAM usage for generate-text request: 833568768 bytes
+2024-05-08 08:26:58,939 INFO: 127.0.0.1 - - [08/May/2024 08:26:58] "GET / HTTP/1.1" 200 -
+2024-05-08 08:26:58,958 INFO: RAM usage for generate-text request: 1038712832 bytes
+2024-05-08 08:26:59,188 INFO: 127.0.0.1 - - [08/May/2024 08:26:59] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:26:59,338 INFO: RAM usage for generate-text request: 935018496 bytes
+2024-05-08 08:27:00,859 INFO: 127.0.0.1 - - [08/May/2024 08:27:00] "GET / HTTP/1.1" 200 -
+2024-05-08 08:27:02,772 INFO: RAM usage for generate-text request: 476610560 bytes
+2024-05-08 08:27:03,392 INFO: 127.0.0.1 - - [08/May/2024 08:27:03] "GET / HTTP/1.1" 200 -
+2024-05-08 08:27:03,413 INFO: RAM usage for generate-text request: 780943360 bytes
+2024-05-08 08:27:05,534 INFO: 127.0.0.1 - - [08/May/2024 08:27:05] "GET / HTTP/1.1" 200 -
+2024-05-08 08:27:05,561 INFO: RAM usage for generate-text request: 738787328 bytes
+2024-05-08 08:27:07,049 INFO: 127.0.0.1 - - [08/May/2024 08:27:07] "GET / HTTP/1.1" 200 -
+2024-05-08 08:27:07,078 INFO: RAM usage for generate-text request: 805470208 bytes
+2024-05-08 08:27:08,350 INFO: RAM usage for summarize-text request: 689668096 bytes
+2024-05-08 08:27:09,042 INFO: 127.0.0.1 - - [08/May/2024 08:27:09] "GET / HTTP/1.1" 200 -
+2024-05-08 08:27:09,066 INFO: RAM usage for generate-text request: 822181888 bytes
+2024-05-08 08:27:11,719 INFO: 127.0.0.1 - - [08/May/2024 08:27:11] "GET / HTTP/1.1" 200 -
+2024-05-08 08:27:11,755 INFO: RAM usage for generate-text request: 768016384 bytes
+2024-05-08 08:27:13,246 INFO: RAM usage for summarize-text request: 778027008 bytes
+2024-05-08 08:27:13,335 INFO: RAM usage for summarize-text request: 743407616 bytes
+2024-05-08 08:27:13,479 INFO: RAM usage for summarize-text request: 675987456 bytes
+2024-05-08 08:27:13,722 INFO: 127.0.0.1 - - [08/May/2024 08:27:13] "GET / HTTP/1.1" 200 -
+2024-05-08 08:27:13,740 INFO: RAM usage for generate-text request: 632143872 bytes
+2024-05-08 08:27:18,652 INFO: 127.0.0.1 - - [08/May/2024 08:27:18] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:27:18,895 INFO: RAM usage for generate-text request: 1021313024 bytes
+2024-05-08 08:27:20,451 INFO: 127.0.0.1 - - [08/May/2024 08:27:20] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:27:22,021 INFO: RAM usage for generate-text request: 892829696 bytes
+2024-05-08 08:27:22,727 INFO: 127.0.0.1 - - [08/May/2024 08:27:22] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:27:23,038 INFO: RAM usage for generate-text request: 841629696 bytes
+2024-05-08 08:27:23,200 INFO: 127.0.0.1 - - [08/May/2024 08:27:23] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:27:23,910 INFO: RAM usage for generate-text request: 869072896 bytes
+2024-05-08 08:27:27,221 INFO: 127.0.0.1 - - [08/May/2024 08:27:27] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:27:27,534 INFO: RAM usage for generate-text request: 863682560 bytes
+2024-05-08 08:27:28,154 INFO: 127.0.0.1 - - [08/May/2024 08:27:28] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:27:28,580 INFO: RAM usage for generate-text request: 858963968 bytes
+2024-05-08 08:27:31,831 INFO: 127.0.0.1 - - [08/May/2024 08:27:31] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:27:32,051 INFO: RAM usage for summarize-text request: 758382592 bytes
+2024-05-08 08:27:34,062 INFO: 127.0.0.1 - - [08/May/2024 08:27:34] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:27:34,675 INFO: 127.0.0.1 - - [08/May/2024 08:27:34] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:27:35,653 INFO: RAM usage for generate-text request: 787513344 bytes
+2024-05-08 08:27:36,577 INFO: RAM usage for generate-text request: 836976640 bytes
+2024-05-08 08:27:43,429 INFO: 127.0.0.1 - - [08/May/2024 08:27:43] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:27:44,407 INFO: 127.0.0.1 - - [08/May/2024 08:27:44] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:27:45,978 INFO: 127.0.0.1 - - [08/May/2024 08:27:45] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:27:46,134 INFO: RAM usage for generate-text request: 829833216 bytes
+2024-05-08 08:27:46,826 INFO: 127.0.0.1 - - [08/May/2024 08:27:46] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:27:46,876 INFO: RAM usage for generate-text request: 804880384 bytes
+2024-05-08 08:27:47,089 INFO: RAM usage for summarize-text request: 829276160 bytes
+2024-05-08 08:27:47,116 INFO: RAM usage for summarize-text request: 829079552 bytes
+2024-05-08 08:27:47,328 INFO: 127.0.0.1 - - [08/May/2024 08:27:47] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:27:48,722 INFO: RAM usage for generate-text request: 886177792 bytes
+2024-05-08 08:27:49,115 INFO: 127.0.0.1 - - [08/May/2024 08:27:49] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:27:50,077 INFO: RAM usage for generate-text request: 815628288 bytes
+2024-05-08 08:27:54,562 INFO: 127.0.0.1 - - [08/May/2024 08:27:54] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:27:55,113 INFO: 127.0.0.1 - - [08/May/2024 08:27:55] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:27:56,450 INFO: RAM usage for generate-text request: 832520192 bytes
+2024-05-08 08:27:56,837 INFO: RAM usage for generate-text request: 443809792 bytes
+2024-05-08 08:28:04,925 INFO: 127.0.0.1 - - [08/May/2024 08:28:04] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:28:06,724 INFO: RAM usage for generate-text request: 750829568 bytes
+2024-05-08 08:28:11,544 INFO: 127.0.0.1 - - [08/May/2024 08:28:11] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:28:15,052 INFO: 127.0.0.1 - - [08/May/2024 08:28:15] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:28:15,146 INFO: 127.0.0.1 - - [08/May/2024 08:28:15] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:28:16,882 INFO: 127.0.0.1 - - [08/May/2024 08:28:16] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:28:18,451 INFO: 127.0.0.1 - - [08/May/2024 08:28:18] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:28:19,067 INFO: RAM usage for summarize-text request: 1056522240 bytes
+2024-05-08 08:28:21,601 INFO: 127.0.0.1 - - [08/May/2024 08:28:21] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:28:21,773 INFO: 127.0.0.1 - - [08/May/2024 08:28:21] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:28:23,077 INFO: 127.0.0.1 - - [08/May/2024 08:28:23] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:28:24,096 INFO: 127.0.0.1 - - [08/May/2024 08:28:24] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:28:24,384 INFO: RAM usage for summarize-text request: 871858176 bytes
+2024-05-08 08:28:25,254 INFO: 127.0.0.1 - - [08/May/2024 08:28:25] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:28:25,761 INFO: 127.0.0.1 - - [08/May/2024 08:28:25] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:28:25,921 INFO: 127.0.0.1 - - [08/May/2024 08:28:25] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:28:26,504 INFO: RAM usage for summarize-text request: 809877504 bytes
+2024-05-08 08:28:26,586 INFO: 127.0.0.1 - - [08/May/2024 08:28:26] "POST /generate-text HTTP/1.1" 200 -
+2024-05-08 08:28:27,525 INFO: RAM usage for summarize-text request: 671498240 bytes
+2024-05-08 08:28:28,203 INFO: RAM usage for summarize-text request: 620331008 bytes

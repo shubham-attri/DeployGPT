@@ -1,60 +1,45 @@
 import asyncio
 import aiohttp
-import json
-from random import choice
 
-# List of sample prompts
-prompts = [
-    "Write a short story about a robot that learns to love.",
-    "Describe a futuristic city in the year 2100.",
-    "Explain the theory of relativity in simple terms.",
-    # Add more prompts as needed
-]
-
-# List of sample texts for summarization
-texts = [
-    "This is a long text about the history of artificial intelligence...",
-    "Here's another text describing the latest advancements in machine learning...",
-    # Add more texts as needed
-]
-
-# List of sample questions and contexts for question answering
-qa_pairs = [
-    {
-        "question": "What is the capital of France?",
-        "context": "Paris is the capital and most populous city of France..."
-    },
-    {
-        "question": "Who invented the telephone?",
-        "context": "The telephone was invented by Alexander Graham Bell in 1876..."
-    },
-    # Add more question-context pairs as needed
-]
-
-async def send_request(session, url, payload):
-    headers = {"Content-Type": "application/json"}
-    async with session.post(url, data=json.dumps(payload), headers=headers) as response:
-        print(f"Response status: {response.status}")
-        print(await response.text())
+async def make_request(session, url, payload):
+    async with session.post(url, json=payload) as response:
+        return await response.json()
 
 async def main():
-    url_generate_text = "https://YOUR_API_ID.execute-api.YOUR_AWS_REGION.amazonaws.com/prod/generate-text"
-    url_summarize_text = "https://YOUR_API_ID.execute-api.YOUR_AWS_REGION.amazonaws.com/prod/summarize-text"
-    url_answer_question = "https://YOUR_API_ID.execute-api.YOUR_AWS_REGION.amazonaws.com/prod/answer-question"
+    # Define API endpoints
+    endpoints = [
+        ("/generate-text", {"prompt": "Write a story about a dragon"}),
+        ("/generate-text", {"prompt": "Write a story about a spaceship"}),
+        ("/generate-text", {"prompt": "Write a story about a haunted house"}),
+        ("/generate-text", {"prompt": "Write a story about a magical forest"}),
+        ("/generate-text", {"prompt": "Write a poem about a time traveler"}),
+        ("/generate-text", {"prompt": "Write a poem about a starry night"}),
+        ("/summarize-text", {"text": "In today's digital age, technology has revolutionized the field of education, transforming traditional teaching methods and opening up new avenues for learning. With the rise of e-learning platforms, students can access educational materials from anywhere in the world, breaking down geographical barriers to education. Interactive tools and multimedia resources engage students in ways that traditional textbooks cannot, catering to diverse learning styles. Additionally, technologies such as virtual reality and augmented reality offer immersive learning experiences, making complex concepts easier to understand.However, the widespread use of technology in education also presents challenges. The digital divide, resulting from unequal access to technology, exacerbates existing inequalities in education. Moreover, concerns about screen time and digital distractions have raised questions about the long-term impact of technology on students' attention spans and mental well-being.Despite these challenges, the potential benefits of technology in education are vast. By embracing innovative technologies responsibly, educators can create dynamic learning environments that empower students to thrive in the digital age."}),
+        ("/summarize-text", {"text": "Environmental conservation is crucial for preserving the delicate balance of ecosystems and safeguarding the planet for future generations. Human activities, such as deforestation, pollution, and climate change, pose significant threats to biodiversity and ecosystem stability. Without proactive conservation efforts, we risk irreparable damage to the environment and the loss of countless species.Conservation initiatives play a vital role in protecting natural habitats, preserving endangered species, and mitigating the impacts of climate change. By promoting sustainable practices and reducing our carbon footprint, we can minimize environmental degradation and promote ecological resilience.Furthermore, conservation efforts benefit not only the environment but also human health and well-being. Clean air and water, fertile soil, and abundant biodiversity are essential for supporting human life and maintaining the planet's ecosystems services.As stewards of the Earth, it is our responsibility to prioritize environmental conservation and take meaningful action to protect the natural world for future generations."}),
+        ("/summarize-text", {"text": "Diversity enriches society by bringing together people from different backgrounds, cultures, and perspectives. Embracing diversity fosters inclusion, promotes understanding, and strengthens social cohesion. When individuals with diverse experiences and viewpoints come together, they contribute unique insights and talents, driving innovation and creativity.Furthermore, diversity is essential for addressing social inequalities and promoting social justice. By acknowledging and celebrating differences, we can challenge stereotypes, combat discrimination, and build more equitable communities. Diversity in leadership and representation ensures that all voices are heard and valued, leading to more inclusive decision-making processes.However, achieving true diversity requires ongoing commitment and effort. It involves creating inclusive spaces where everyone feels welcome and respected, regardless of their race, ethnicity, gender, sexual orientation, or ability.By embracing diversity and fostering inclusive communities, we can build a more equitable and harmonious society where every individual has the opportunity to thrive."}),
+        ("/summarize-text", {"text": "Mental health awareness is essential for promoting well-being and reducing the stigma surrounding mental illness. Mental health issues affect millions of people worldwide, yet they are often misunderstood or overlooked. By raising awareness and destigmatizing mental health conditions, we can encourage open conversations, increase access to support services, and promote early intervention and treatment.Moreover, prioritizing mental health has far-reaching benefits for individuals, families, and communities. Healthy minds are essential for maintaining overall health and resilience, enabling individuals to cope with life's challenges and thrive in their personal and professional lives.Furthermore, mental health awareness is crucial for building compassionate and supportive communities. By fostering empathy and understanding, we can create environments where individuals feel safe to seek help and support one another through difficult times.Ultimately, mental health awareness is a vital component of holistic well-being. By promoting mental health education and advocacy, we can create a more compassionate and inclusive society where everyone has the support they need to live fulfilling lives."}),
+        ("/summarize-text", {"text": "Social media has transformed the way we communicate, connect, and consume information, shaping modern society in profound ways. On one hand, social media platforms facilitate instant communication and networking, allowing individuals to stay connected with friends and family, regardless of geographical barriers. Moreover, social media has become a powerful tool for raising awareness, mobilizing social movements, and amplifying marginalized voices.However, the widespread use of social media also raises concerns about its impact on mental health, privacy, and democracy. Excessive use of social media has been linked to increased feelings of loneliness, anxiety, and depression, as well as addictive behaviors. Moreover, social media platforms' algorithms can create filter bubbles and echo chambers, reinforcing existing biases and polarizing discourse.Furthermore, the spread of misinformation and fake news on social media poses significant challenges to democratic societies, undermining trust in institutions and threatening the integrity of public discourse.To address these challenges, it is essential to promote digital literacy, critical thinking, and responsible use of social media. By fostering a culture of mindfulness and moderation, we can harness the potential of social media for positive social change while mitigating its negative impacts on individuals and society as a whole."}),
+        ("/answer-question", {"question": "What is the capital of France?","context": "France is a country located in Western Europe. It is known for its rich history, culture, and cuisine. The capital city of France is Paris, which is often referred to as the 'City of Light' and is famous for its iconic landmarks such as the Eiffel Tower and the Louvre Museum."}),
+        ("/answer-question", {"question": "Who wrote the novel 'To Kill a Mockingbird'?", "context": "'To Kill a Mockingbird' is a classic American novel written by Harper Lee. It was first published in 1960 and has since become one of the most widely read and studied works of fiction in American literature. The novel explores themes of racial injustice, moral growth, and compassion through the eyes of its young protagonist, Scout Finch."}),
+        ("/answer-question", {"question": "What year did the Titanic sink?", "context": "The Titanic was a British passenger liner that sank in the North Atlantic Ocean on April 15, 1912, after colliding with an iceberg during its maiden voyage from Southampton to New York City. The sinking of the Titanic resulted in the loss of over 1,500 lives and remains one of the deadliest maritime disasters in history."}),
+        ("/answer-question", {"question": "Who invented the telephone?", "context": "The telephone was invented by Alexander Graham Bell, a Scottish-born inventor, scientist, and engineer. Bell is credited with inventing the first practical telephone and is often recognized as one of the most influential figures in the history of telecommunications."}),
+        ("/answer-question", {"question": "What is the largest planet in our solar system?", "context": "The largest planet in our solar system is Jupiter. It is a gas giant with a diameter of approximately 86,881 miles (139,822 kilometers) and is known for its distinctive bands of clouds and the Great Red Spot, a massive storm that has been raging for centuries."})
+
+    ]
 
     async with aiohttp.ClientSession() as session:
         tasks = []
-        for _ in range(10):  # Number of concurrent users
-            task_type = choice(["generate_text", "summarize_text", "answer_question"])
-            if task_type == "generate_text":
-                prompt = choice(prompts)
-                payload = {"prompt": prompt}
-                task = asyncio.create_task(send_request(session, url_generate_text, payload))
-            elif task_type == "summarize_text":
-                text = choice(texts)
-                payload = {"text": text}
-                task = asyncio.create_task(send_request(session, url_summarize_text, payload))
-            else:  # answer_question
-                qa_pair = choice(qa_pairs)
-                payload = {"question": qa_pair["question"], "context": qa_pair["context"]}
-                task = asyncio.create_task(send_request(session, url_answer_question, payload))
+        for endpoint, payload in endpoints:
+            for _ in range(1): #create 10 requests for each endpoint
+                tasks.append(make_request(session, f"http://192.168.45.4:5001{endpoint}", payload))
+
+        # Execute requests concurrently
+        responses = await asyncio.gather(*tasks)
+
+        # Print responses
+        for response in responses:
+            print(response)
+
+if __name__ == "__main__":
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(main())
